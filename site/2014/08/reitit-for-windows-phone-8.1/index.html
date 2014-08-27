@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Reitit for Windows Phone 8.1 - Olli Saarikivi
+    
+  </title>
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/poole.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/hyde.css">
+
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:1313/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="http://localhost:1313/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:1313/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="http://localhost:1313/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="http://localhost:1313/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="http://localhost:1313/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="http://localhost:1313/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="http://localhost:1313/favicon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="http://localhost:1313/favicon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="http://localhost:1313/favicon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="http://localhost:1313/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="http://localhost:1313/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="http://localhost:1313/favicon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Olli Saarikivi" />
+</head>
+<body>
+<div class="holder">
+
+<div class="sidebar">
+  <div class="sidebar-about">
+    <h1><a href="http://localhost:1313/">Olli Saarikivi</a></h1>
+  </div>
+
+  <ul class="sidebar-nav">
+    
+    
+      <li ><a href="http://localhost:1313/about"> About </a></li>
+    
+      <li ><a href="http://localhost:1313/cv"> CV </a></li>
+    
+      <li ><a href="http://localhost:1313/collections/log"> Log </a></li>
+    
+  </ul>
+</div>
+
+
+  <div class="content-container">
+  <div class="content">
+    <div class="post">
+      <h1>Reitit for Windows Phone 8.1</h1>
+      <span class="post-date">Tue, Aug 26, 2014</span>
+          <p><img style="float: left; margin-right: 1em; margin-bottom: 1em; margin-top: 0.25em;" src="http://localhost:1313/reitit.png"/></p>
+
+<p>Over the summer I have been developing a Windows Phone 8.1 version of my Helsinki metropolitan area route planner app, <a href="http://www.windowsphone.com/fi-fi/store/app/reitit/30e77f37-ef15-4860-b5d2-c4f7ee96f0e4">Reitit</a>. The new version is already mostly feature complete. However, the release of the app will be delayed due to problems I have encountered with the new framework:</p>
+
+<ol>
+<li><p>The app is too slow. Page navigation is noticeably slower than in the old version. One optimization that I employed in the WP7 version was to not use databinding and instead create and update all controls in code-behind. I hoped that this would not be required to get smooth navigation on WP8 class hardware. I will have to do further testing to see what is causing the slow page loading.</p></li>
+
+<li><p>The new <a href="http://msdn.microsoft.com/en-us/library/windows/apps/xaml/windows.ui.xaml.controls.maps.mapcontrol.aspx">MapControl</a> for &ldquo;Windows Phone XAML apps&rdquo; has rendering issues when panning a map that includes UIElement pushpins. Basically the pushpins don&rsquo;t always move at the same speed as the rest of the map. When dragging a finger on the map, both the map image and the pushpins lag behind the touch point, but the map image itself lags <em>more</em> resulting in the pushpins not staying glued down on to the map.</p></li>
+</ol>
+
+<p>The issue with the map control can be tolerated, as the map is otherwise quite a bit more beautiful than the old WP7 map. The page navigation issue, however, is something I will need to fix before publishing the new version.</p>
+
+    </div>
+  </div>
+  </div>
+
+  </div>
+
+  <script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

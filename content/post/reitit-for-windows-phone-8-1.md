@@ -4,15 +4,9 @@ date = 2014-08-26T10:49:35Z
 collections = ["log", "reitit"]
 +++
 
-<img style="float: left; margin-right: 2em; margin-bottom: 1em;" src="/reitit.png"/>
+<img style="float: left; margin-right: 1em; margin-bottom: 1em; margin-top: 0.25em;" src="/reitit.png"/>
 
-Over the summer I have been developing a Windows Phone 8.1 version of my Helsinki metropolitan area route planner app, [Reitit](http://www.windowsphone.com/fi-fi/store/app/reitit/30e77f37-ef15-4860-b5d2-c4f7ee96f0e4). New features include:
-
-- GPS tracking on the map
-- A new more streamlined route listing
-- Advanced search options
-
-The new version is already mostly feature complete. However, the release of the app will be delayed due to problems I have encountered with the new framework:
+Over the summer I have been developing a Windows Phone 8.1 version of my Helsinki metropolitan area route planner app, [Reitit](http://www.windowsphone.com/fi-fi/store/app/reitit/30e77f37-ef15-4860-b5d2-c4f7ee96f0e4). The new version is already mostly feature complete. However, the release of the app will be delayed due to problems I have encountered with the new framework:
 
 1. The app is too slow. Page navigation is noticeably slower than in the old version. One optimization that I employed in the WP7 version was to not use databinding and instead create and update all controls in code-behind. I hoped that this would not be required to get smooth navigation on WP8 class hardware. I will have to do further testing to see what is causing the slow page loading.
 

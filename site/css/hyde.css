@@ -1,0 +1,110 @@
+.sidebar {
+  text-align: center;
+  padding: 1rem 0.5rem;
+}
+
+.sidebar-nav a {
+  color: #fff;
+}
+
+.sidebar-about h1 {
+  color: #1197B7;
+  margin-top: 0;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.sidebar-nav {
+  padding-left: 0;
+  list-style: none;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+}
+.sidebar-nav li {
+  display: inline;
+}
+.sidebar-nav li.active {
+}
+
+body {
+  background-color: #fff;
+}
+.holder {
+  background-color: #3f3f3f;
+}
+.content-container {
+  background-color: #fff;
+}
+.content {
+  padding-top:    2rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 46rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 41.1rem) {
+  .content {
+    text-align: justify;
+  }
+}
+
+@media (min-width: 63.01rem) {
+  body {
+    background-color: #3f3f3f;
+  }
+  .content-container {
+    margin-left: 16rem;
+  }
+  .content {
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 100vh;
+  }
+  .sidebar {
+    float: left;
+    height: 100%;
+    width: 16rem;
+    text-align: right;
+    padding: 2.5rem 1rem;
+  }
+  .sidebar-nav li {
+    display: block;
+  }
+}
+
+@media (min-width: 67.01rem) {
+  .content {
+    max-width: 50rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 72rem) {
+  .holder {
+    max-width: 66rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.content a,
+.related-posts li a:hover {
+  color: #037E9B;
+}
+
+.forohfor h1 {
+  text-align: center;
+  color: #1197B7;
+  margin: 2rem;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+  font-size: 30vw;
+  font-weight: 500;
+}
+
+.posts li {
+  list-style: none;
+}
