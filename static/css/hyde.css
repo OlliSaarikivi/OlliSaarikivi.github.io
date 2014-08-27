@@ -1,48 +1,12 @@
-  /*
- *  __                  __
- * /\ \                /\ \
- * \ \ \___   __  __   \_\ \     __
- *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
- *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
- *    \ \_\ \_\/`____ \ \___,_\ \____\
- *     \/_/\/_/`/___/> \/__,_ /\/____/
- *                /\___/
- *                \/__/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/hyde.
- */
-
-
-/*
- * Contents
- *
- * Global resets
- * Sidebar
- * Container
- * Reverse layout
- * Themes
- */
-
-
-/*
- * Sidebar
- *
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
- */
-
 .sidebar {
   text-align: center;
   padding: 1rem 0.5rem;
 }
 
-/* Sidebar links */
-.sidebar a {
+.sidebar-nav a {
   color: #fff;
 }
 
-/* About section */
 .sidebar-about h1 {
   color: #1197B7;
   margin-top: 0;
@@ -51,30 +15,19 @@
   font-weight: 300;
 }
 
-/* Sidebar nav */
 .sidebar-nav {
   padding-left: 0;
   list-style: none;
+  font-family: "Segoe UI", Helvetica, sans-serif;
 }
-.sidebar-nav-item {
-  display: block;
+.sidebar-nav li {
+  display: inline;
 }
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
+.sidebar-nav li.active {
 }
-.sidebar-nav-item.active {
-  font-weight: bold;
-}
-
-/* Container
- *
- * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
- */
 
 body {
-  background-color: #3f3f3f;
+  background-color: #fff;
 }
 .holder {
   background-color: #3f3f3f;
@@ -83,7 +36,7 @@ body {
   background-color: #fff;
 }
 .content {
-  padding-top:    4rem;
+  padding-top:    2rem;
   padding-bottom: 4rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -92,20 +45,33 @@ body {
   margin-right: auto;
 }
 
+@media (min-width: 41.1rem) {
+  .content {
+    text-align: justify;
+  }
+}
+
 @media (min-width: 63.01rem) {
+  body {
+    background-color: #3f3f3f;
+  }
   .content-container {
     margin-left: 16rem;
   }
   .content {
     margin-left: 0;
     margin-right: 0;
+    min-height: 100vh;
   }
   .sidebar {
     float: left;
     height: 100%;
     width: 16rem;
     text-align: right;
-    padding: 2rem 1rem;
+    padding: 2.5rem 1rem;
+  }
+  .sidebar-nav li {
+    display: block;
   }
 }
 
@@ -119,7 +85,7 @@ body {
 
 @media (min-width: 72rem) {
   .holder {
-    max-width: 62rem;
+    max-width: 66rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -129,9 +95,7 @@ body {
 .related-posts li a:hover {
   color: #037E9B;
 }
-.content .post-title a {
-  color: #037E9B;
-}
+
 .forohfor h1 {
   text-align: center;
   color: #1197B7;
@@ -139,4 +103,8 @@ body {
   font-family: "Segoe UI", Helvetica, sans-serif;
   font-size: 30vw;
   font-weight: 500;
+}
+
+.posts li {
+  list-style: none;
 }

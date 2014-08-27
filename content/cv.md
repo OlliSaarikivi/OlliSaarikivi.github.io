@@ -1,6 +1,7 @@
 +++
-title = "Curriculum Vitae"
+title = "CV"
 date = 2014-08-25T11:42:16Z
+menu = "main"
 +++
 
 Education

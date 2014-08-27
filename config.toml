@@ -5,3 +5,11 @@ baseurl = "http://ulber.iki.fi/"
 canonifyurls = true
 [params]
 	Description = ""
+[Taxonomies]
+	collection = "collections"
+[permalinks]
+	post = "/:year/:month/:slug/"
+[[menu.main]]
+    name = "Log"
+    Url = "/collections/log"
+    weight = 100

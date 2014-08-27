@@ -1,14 +1,12 @@
 <div class="sidebar">
-  <div class="container">
-    <div class="sidebar-about">
-      <h1>{{ .Site.Title }}</h1>
-    </div>
-
-    <ul class="sidebar-nav">
-      <li><a href="/">Home</a> </li>
-      {{ range .Site.Menus.main }}
-        <li><a href="{{.Url}}"> {{ .Name }} </a></li>
-      {{end}}
-    </ul>
+  <div class="sidebar-about">
+    <h1><a href="/">{{ .Site.Title }}</a></h1>
   </div>
+
+  <ul class="sidebar-nav">
+    {{ $currentNode := . }}
+    {{ range .Site.Menus.main }}
+      <li {{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.Url}}"> {{ .Name }} </a></li>
+    {{end}}
+  </ul>
 </div>

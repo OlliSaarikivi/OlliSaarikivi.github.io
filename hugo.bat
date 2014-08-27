@@ -1,1 +1,1 @@
-hugo.exe server -ws .\
+hugo.exe server -ws .\ -v

@@ -1,6 +1,7 @@
 +++
 title = "About"
 date = 2014-08-25T16:58:08Z
+menu = "main"
 +++
 
 I'm a doctoral student at [Aalto University Department of Computer Science and Engineering](http://cse.aalto.fi/en/ "CSE").

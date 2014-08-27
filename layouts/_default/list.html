@@ -3,17 +3,15 @@
 {{ template "partials/sidebar.html" . }}
 
   <div class="content-container">
-  <div class="content">
-
-    <ul class="posts">
-      {{ range .Data.Pages }}
-      <li><span><a href="{{ .Permalink }}">{{ .Title }}</a><time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</h4></time></span></span></li>
-      {{ end }}
-    </ul>
-  </div>
-  </div>
-
+    <div class="content">
+      <ul>
+        {{ range .Data.Pages }}
+        <li><span><a href="{{ .Permalink }}">{{ .Title }}</a><time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</h4></time></span></span></li>
+        {{ end }}
+      </ul>
+    </div>
   </div>
 
+  </div>
   </body>
 </html>
