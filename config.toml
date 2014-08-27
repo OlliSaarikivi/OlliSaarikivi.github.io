@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Olli Saarikivi"
-publishdir = "../site"
+publishdir = "site"
 baseurl = "http://ulber.iki.fi/"
 canonifyurls = true
 [params]
