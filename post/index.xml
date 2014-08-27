@@ -3,7 +3,7 @@
   <channel>
       <title>Posts on Olli Saarikivi </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://localhost:1313/post/index.xml</link>
+    <link>http://ulber.iki.fi/post/index.xml</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Reitit for Windows Phone 8.1</title>
-      <link>http://localhost:1313/2014/08/reitit-for-windows-phone-8.1/</link>
+      <link>http://ulber.iki.fi/2014/08/reitit-for-windows-phone-8.1/</link>
       <pubDate>Tue, 26 Aug 2014 10:49:35 UTC</pubDate>
       
-      <guid>http://localhost:1313/2014/08/reitit-for-windows-phone-8.1/</guid>
+      <guid>http://ulber.iki.fi/2014/08/reitit-for-windows-phone-8.1/</guid>
       <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-right: 2em; margin-bottom: 1em;&#34; src=&#34;/reitit.png&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Over the summer I have been developing a Windows Phone 8.1 version of my Helsinki metropolitan area route planner app, &lt;a href=&#34;http://www.windowsphone.com/fi-fi/store/app/reitit/30e77f37-ef15-4860-b5d2-c4f7ee96f0e4&#34;&gt;Reitit&lt;/a&gt;. New features include:&lt;/p&gt;
