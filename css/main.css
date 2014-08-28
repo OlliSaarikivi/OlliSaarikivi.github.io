@@ -28,7 +28,7 @@ body {
 }
 
 a {
-  color: #268bd2;
+  color: #037E9B;
   text-decoration: none;
 }
 a:hover,
@@ -200,7 +200,7 @@ tbody tr:nth-child(odd) th {
 header {
   color: #9a9a9a;
   margin-top: 2rem;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   text-align: left;
 }
 header.summary {
@@ -219,7 +219,7 @@ header h1 {
   font-weight: normal;
   font-variant: normal;
 }
-header h1.before-header {
+header h1.reduce-skip {
   margin-bottom: -0.75rem;
 }
 header h2 {
@@ -263,7 +263,7 @@ nav.main h1 {
   letter-spacing: 0.03em;
 }
 nav.main h1 a {
-  color: #1197B7;
+  color: #1197B2;
 }
 
 .nav-separator {
@@ -271,7 +271,7 @@ nav.main h1 a {
 }
 
 body {
-  background-color: #3f3f3f;
+  background-color: #fff;
 }
 #holder {
   background-color: #3f3f3f;
@@ -355,10 +355,6 @@ main {
   }
 }
 
-main a {
-  color: #037E9B;
-}
-
 #toc-details {
   line-height: 1.65;
   margin-top: 1.5rem;
@@ -376,13 +372,34 @@ main a {
   font-style: italic;
 }
 
+.stretch-404 a:hover,
+.stretch-404 a:focus {
+    text-decoration: none;
+}
+
+.stretch-404 {
+  font-size: 30vw;
+}
+
 .stretch-404 h1 {
   text-align: center;
-  color: #1197B7;
-  margin: 2rem;
+  color: #1197B2;
+  margin: 0;
+  padding: 0;
+  line-height: 0.5em;
   font-family: Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-  font-size: 30vw;
   font-weight: 500;
+  font-size: 100%;
+  font-variant: normal;
+  letter-spacing: 0.05em;
+}
+
+.smaller-404 {
+  font-size: 20%;
+  margin-top: 0.15em;
+  letter-spacing: normal;
+  letter-spacing: 0.2em;
+  display: block;
 }
 
 .page-list {

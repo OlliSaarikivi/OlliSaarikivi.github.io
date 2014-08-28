@@ -52,7 +52,7 @@
       <description>
 
 &lt;header&gt;
-  &lt;h1&gt;About&lt;/h1&gt;
+  &lt;h1 class=&#34;reduce-skip&#34;&gt;About&lt;/h1&gt;
 &lt;/header&gt;
 
 &lt;p&gt;I&amp;rsquo;m a doctoral student at &lt;a href=&#34;http://cse.aalto.fi/en/&#34; title=&#34;CSE&#34;&gt;Aalto University Department of Computer Science and Engineering&lt;/a&gt;.&lt;/p&gt;
