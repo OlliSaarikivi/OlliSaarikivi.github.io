@@ -5,7 +5,7 @@
 <article>
   <header>
     <a class="collection-rss-link" href="{{ .Url }}/index.xml"><img src="/rss.png"/></a>
-    <h1>{{ .Title }}</h1>
+    <h1 class="reduce-skip">{{ .Title }}</h1>
   </header>
   {{ range .Data.Pages }}
     {{ .Render "summary"}}
