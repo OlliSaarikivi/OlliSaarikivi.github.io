@@ -11,6 +11,7 @@
     
   </title>
 
+  <link rel="stylesheet" href="http://ulber.iki.fi/css/normalize.css">
   <link rel="stylesheet" href="http://ulber.iki.fi/css/main.css">
   <link rel="stylesheet" href="http://ulber.iki.fi/css/content.css">
   <link rel="stylesheet" href="http://ulber.iki.fi/css/syntax.css">
@@ -60,11 +61,11 @@
 	  <h1>Reitit for Windows Phone 8.1 delayed</h1>
 	  <time datetime="2014-08-27">Wed, 27 Aug, 2014 - about 300 words </time>
   </header>
-  <figure class="float-left">
+  <figure class="float-right">
     <img class="picture" src="http://ulber.iki.fi/reitit-80.png"/>
 </figure>
 
-<p>Over the summer I have been developing a Windows Phone 8.1 version of my Helsinki metropolitan area route planner app, <a href="http://www.windowsphone.com/fi-fi/store/app/reitit/30e77f37-ef15-4860-b5d2-c4f7ee96f0e4">Reitit</a>. The new version is already mostly feature complete. However, the release of the app will be delayed due to problems I have encountered with the new framework:</p>
+<p><span class="drop-cap">O</span>ver the summer I have been developing a Windows Phone 8.1 version of my Helsinki metropolitan area route planner app, <a href="http://www.windowsphone.com/fi-fi/store/app/reitit/30e77f37-ef15-4860-b5d2-c4f7ee96f0e4">Reitit</a>. The new version is already mostly feature complete. However, the release of the app will be delayed due to problems I have encountered with the new framework:</p>
 
 <ol>
 <li><p>The app is too slow. Page navigation is noticeably slower than in the old version. One optimization that I employed in the WP7 version was to not use data binding and instead create and update all controls in code-behind. I hoped that this would not be required to get smooth navigation on WP8 class hardware. I will have to do further testing to see what is causing the slow page loading.</p></li>
@@ -85,7 +86,7 @@
         return;
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = '';
+    var disqus_shortname = 'ollisaarikivi';
 	var disqus_identifier = 'http:\/\/ulber.iki.fi\/2014\/08\/reitit-for-windows-phone-8.1-delayed\/';
 	var disqus_title = 'Reitit for Windows Phone 8.1 delayed';
 	var disqus_url = 'http:\/\/ulber.iki.fi\/2014\/08\/reitit-for-windows-phone-8.1-delayed\/';
