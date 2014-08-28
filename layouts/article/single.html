@@ -4,11 +4,13 @@
 
 <article>
   <header>
-	  <h1>{{ .Title }}</h1>
-	  {{ .Render "info" }}
+    <h1>{{ .Title }}</h1>
+    <details id="toc-details">
+    	<summary>Table of contents</summary>
+    	{{ .TableOfContents }}
+    </details>
   </header>
   {{ .Content }}
 </article>
-{{ template "partials/disqus.html" . }}
 
 {{ template "partials/end.html" .}}

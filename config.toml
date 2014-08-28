@@ -2,7 +2,10 @@ languageCode = "en-us"
 title = "Olli Saarikivi"
 publishdir = "site"
 baseurl = "http://ulber.iki.fi/"
+disqusShortname = "ollisaarikivi"
 canonifyurls = true
+[author]
+    name = "Olli Saarikivi"
 [params]
 	Description = ""
 [Taxonomies]
@@ -10,6 +13,6 @@ canonifyurls = true
 [permalinks]
 	post = "/:year/:month/:slug/"
 [[menu.main]]
-    name = "Log"
-    Url = "/collections/log"
+    name = "Posts"
+    Url = "/collections/posts"
     weight = 100

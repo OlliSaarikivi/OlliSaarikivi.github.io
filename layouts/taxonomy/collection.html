@@ -1,18 +1,15 @@
 {{ template "partials/head.html" . }}
-
 {{ template "partials/sidebar.html" . }}
+{{ template "partials/main.html" . }}
 
-  <div class="content-container">
-  <div class="content">
+<article>
+  <header>
+    <a class="collection-rss-link" href="{{ .Url }}/index.xml"><img src="/rss.svg"/></a>
     <h1>{{ .Title }}</h1>
-    {{ range .Data.Pages }}
-      {{ .Render "summary"}}
-    {{ end }}
-  </div>
-  </div>
+  </header>
+  {{ range .Data.Pages }}
+    {{ .Render "summary"}}
+  {{ end }}
+</article>
 
-  </div>
-
-  </div>
-  </body>
-</html>
+{{ template "partials/end.html" .}}

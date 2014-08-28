@@ -1,18 +1,28 @@
 {{ template "partials/head.html" . }}
-
 {{ template "partials/sidebar.html" . }}
+{{ template "partials/main.html" . }}
 
-  <div class="content-container">
-    <div class="content">
-      <div class="posts">
-        {{ range .Site.Taxonomies.collections.log }}
-          {{ .Page.Render "summary"}}
-        {{ end }}
-      </div>
-    </div>
-  </div>
+<article>
+  {{ range .Data.Pages }}
+    {{if eq .RelPermalink "/frontpage" }} {{ .Content }} {{end}}
+  {{ end }}
+</article>
 
-  </div>
+<article>
+  <header>
+    <a class="collection-rss-link" href="{{ "/collections/posts/index.xml" | urlize }}"><img src="/rss.svg"/></a>
+    <h1 class="before-header">Recent</h1>
+  </header>
 
-  </body>
-</html>
+  {{ range $i, $page := .Site.Taxonomies.collections.frontpage }}
+    {{ if lt $i 3 }}
+      {{ $page.Page.Render "summary"}}
+    {{ end }}
+  {{ end }}
+
+  <footer class="right-align">
+  <a href="{{ "/collections/posts" | urlize }}">Show all posts</a>
+  </footer>
+</article>
+
+{{ template "partials/end.html" .}}

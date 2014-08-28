@@ -1,12 +1,11 @@
-<div class="sidebar">
-  <div class="sidebar-about">
-    <h1><a href="/">{{ .Site.Title }}</a></h1>
-  </div>
+<nav class="main">
+  <h1><a href="/">{{ .Site.Title }}</a></h1>
 
-  <ul class="sidebar-nav">
-    {{ $currentNode := . }}
-    {{ range .Site.Menus.main }}
-      <li {{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.Url}}"> {{ .Name }} </a></li>
-    {{end}}
-  </ul>
-</div>
+  {{ $currentNode := . }}
+  {{ range $a, $b := .Site.Menus.main.ByWeight }}
+    {{ if ne $a 0 }}
+      <span class="nav-separator">&middot;</span>
+    {{ end }}
+    <a href="{{.Url}}">{{ $b.Name }}</a>
+  {{end}}
+</nav>
