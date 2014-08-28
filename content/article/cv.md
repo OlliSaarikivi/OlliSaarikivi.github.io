@@ -6,31 +6,22 @@ menu = "main"
 # Education
 
 ## Doctoral student
-Sept. 2013 – present
-
-*Aalto University*, Department Computer Science and Engineering
-
+**Sept. 2013 – present** Aalto University, Department Computer Science and Engineering
 
 My thesis working title is “Automated testing methods for concurrent
 software”.
 
 ## M.Sc. in Computer Science
-Sept. 2011 – Aug. 2013
-
-*Aalto University*, Department of Information and Computer Science
-
+**Sept. 2011 – Aug. 2013** Aalto University, Department of Information and Computer Science
 
 The thesis title was “Test-Guided Proofs for C Programs on LLVM”. My
 instructors were Prof. Keijo Heljanko and Kari Kähkönen M.Sc. (Tech.).
 
 ## B.Sc. in Computer Science
-Sept. 2007 – Apr. 2011
-
-*Helsinki University*, Department of Computer Science
-
+**Sept. 2007 – Apr. 2011** Helsinki University, Department of Computer Science
 
 ## Päivölä High School of Mathematics
-July 2004 – May 2006
+**July 2004 – May 2006**
 
 During this I had the opportunity to work at Nokia Research Center,
 thanks to a partnership between Nokia and the school. See the Work
@@ -62,11 +53,11 @@ March 2011, Saarbrücken, Germany.
 # Work Experience
 
 ## Aalto University
-**1 Sept. 2013 – present** *Doctoral student at the Department of Computer Science and Engineering*
+**1 Sept. 2013 – present** Doctoral student at the Department of Computer Science and Engineering
 
 See the Education section for details.
 
-**1 June 2010 – 31 Aug. 2013** *Research assistant at the Department of Information and Computer Science*
+**1 June 2010 – 31 Aug. 2013** Research assistant at the Department of Information and Computer Science
 
 I worked on projects researching automated software testing
 and verification. I extended the dynamic symbolic execution tool LCT to
@@ -81,8 +72,8 @@ teaching periods I was employed part time, 1 day per week, while
 the summers were full time.
 
 ## Helsinki University of Technology
-**1 June 2009 – 31 Aug. 2009** *Research assistant at the Laboratory for Theoretical
-Computer Science*
+**1 June 2009 – 31 Aug. 2009** Research assistant at the Laboratory for Theoretical
+Computer Science
 
 I worked on a project researching formal methods and automated testing.
 I developed a set of utilities to generate test drivers for the
@@ -91,11 +82,11 @@ tool. I also designed and implemented a heuristic for directed testing.
 
 ## Optofidelity Ltd.
 
-**17 June 2008 – 29 June 2008** *36 hours of work on a one-off project.*
+**17 June 2008 – 29 June 2008** 36 hours of work on a one-off project.
 
 I built a sound capture component for a visual programming environment.
 
-**5 June 2007 – 24 Aug. 2007** *Trainee*
+**5 June 2007 – 24 Aug. 2007** Trainee
 
 My main project was a technology demo that used a PTZ camera and a
 machine vision library to track a printed target and read a handwritten
@@ -103,10 +94,10 @@ phone number from it.
 
 ## Nokia Research Center
 
-**26 June 2006 – 28 July 2006** *Full time trainee*  
-**12 Aug. 2005 – 31 May 2006** *Part time trainee, 12 hours/week*  
-**1 June 2005 – 11 Aug. 2005** *Full time trainee*  
-**1 Sept. 2004 – 31 May 2005** *Part time trainee, 12 hours/week*  
+**26 June 2006 – 28 July 2006** Full time trainee  
+**12 Aug. 2005 – 31 May 2006** Part time trainee, 12 hours/week  
+**1 June 2005 – 11 Aug. 2005** Full time trainee  
+**1 Sept. 2004 – 31 May 2005** Part time trainee, 12 hours/week  
 
 The work was software development for internal projects. Two of my
 projects were concept demos on using image analysis techniques to
