@@ -3,23 +3,28 @@
   
   <url>
     <loc>http://ulber.iki.fi/</loc>
-    <lastmod>2014-08-26T10:49:35+00:00</lastmod>
+    <lastmod>2014-08-27T10:49:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ulber.iki.fi/2014/08/reitit-for-windows-phone-8.1/</loc>
-    <lastmod>2014-08-26T10:49:35+00:00</lastmod>
+    <loc>http://ulber.iki.fi/2014/08/reitit-for-windows-phone-8.1-delayed/</loc>
+    <lastmod>2014-08-27T10:49:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ulber.iki.fi/about</loc>
-    <lastmod>2014-08-25T16:58:08+00:00</lastmod>
+    <loc>http://ulber.iki.fi/2014/08/new-homepage/</loc>
+    <lastmod>2014-08-26T09:23:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ulber.iki.fi/cv</loc>
-    <lastmod>2014-08-25T11:42:16+00:00</lastmod>
+    <loc>http://ulber.iki.fi/frontpage</loc>
+    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ulber.iki.fi/article/cv</loc>
+    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

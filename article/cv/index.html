@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta charset="UTF-8">
 
-  
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>
@@ -12,12 +11,10 @@
     
   </title>
 
-  
-  <link rel="stylesheet" href="http://ulber.iki.fi/css/poole.css">
+  <link rel="stylesheet" href="http://ulber.iki.fi/css/main.css">
+  <link rel="stylesheet" href="http://ulber.iki.fi/css/content.css">
   <link rel="stylesheet" href="http://ulber.iki.fi/css/syntax.css">
-  <link rel="stylesheet" href="http://ulber.iki.fi/css/hyde.css">
 
-  
   <link rel="apple-touch-icon" sizes="57x57" href="http://ulber.iki.fi/favicon/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="114x114" href="http://ulber.iki.fi/favicon/apple-touch-icon-114x114.png">
   <link rel="apple-touch-icon" sizes="72x72" href="http://ulber.iki.fi/favicon/apple-touch-icon-72x72.png">
@@ -34,38 +31,63 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">
 
-  
-  <link href="" rel="alternate" type="application/rss+xml" title="Olli Saarikivi" />
+  <link href="http://ulber.iki.fi/collections/posts/index.xml" rel="alternate" type="application/rss+xml" title="Olli Saarikivi" />
 </head>
 <body>
-<div class="holder">
+<div id="holder">
 
-<div class="sidebar">
-  <div class="sidebar-about">
-    <h1><a href="http://ulber.iki.fi/">Olli Saarikivi</a></h1>
-  </div>
+<nav class="main">
+  <h1><a href="http://ulber.iki.fi/">Olli Saarikivi</a></h1>
 
-  <ul class="sidebar-nav">
+  
+  
     
+    <a href="http://ulber.iki.fi/article/cv">CV</a>
+  
     
-      <li ><a href="http://ulber.iki.fi/about"> About </a></li>
+      <span class="nav-separator">&middot;</span>
     
-      <li  class="active"><a href="http://ulber.iki.fi/cv"> CV </a></li>
-    
-      <li ><a href="http://ulber.iki.fi/collections/log"> Log </a></li>
-    
-  </ul>
-</div>
+    <a href="http://ulber.iki.fi/collections/posts">Posts</a>
+  
+</nav>
+
+<div id="content-background">
+<main>
 
 
-  <div class="content-container">
-    <div class="content">
-      <h1>CV</h1>
-          
+<article>
+  <header>
+    <h1>CV</h1>
+    <details id="toc-details">
+    	<summary>Table of contents</summary>
+    	<nav id="TableOfContents">
+<ul>
+<li><a href="#toc_0">Education</a>
+<ul>
+<li><a href="#toc_1">Doctoral student</a></li>
+<li><a href="#toc_2">M.Sc. in Computer Science</a></li>
+<li><a href="#toc_3">B.Sc. in Computer Science</a></li>
+<li><a href="#toc_4">Päivölä High School of Mathematics</a></li>
+</ul></li>
+<li><a href="#toc_5">Publications</a></li>
+<li><a href="#toc_6">Work Experience</a>
+<ul>
+<li><a href="#toc_7">Aalto University</a></li>
+<li><a href="#toc_8">Helsinki University of Technology</a></li>
+<li><a href="#toc_9">Optofidelity Ltd.</a></li>
+<li><a href="#toc_10">Nokia Research Center</a></li>
+</ul></li>
+<li><a href="#toc_11">Conferences and Schools</a></li>
+<li><a href="#toc_12">Awards and Honours</a></li>
+</ul>
+</nav>
+    </details>
+  </header>
+  
 
-<h2 id="toc_0">Education</h2>
+<h1 id="toc_0">Education</h1>
 
-<h3 id="toc_1">Doctoral student</h3>
+<h2 id="toc_1">Doctoral student</h2>
 
 <p>Sept. 2013 – present</p>
 
@@ -74,7 +96,7 @@
 <p>My thesis working title is “Automated testing methods for concurrent
 software”.</p>
 
-<h3 id="toc_2">M.Sc. in Computer Science</h3>
+<h2 id="toc_2">M.Sc. in Computer Science</h2>
 
 <p>Sept. 2011 – Aug. 2013</p>
 
@@ -83,13 +105,13 @@ software”.</p>
 <p>The thesis title was “Test-Guided Proofs for C Programs on LLVM”. My
 instructors were Prof. Keijo Heljanko and Kari Kähkönen M.Sc. (Tech.).</p>
 
-<h3 id="toc_3">B.Sc. in Computer Science</h3>
+<h2 id="toc_3">B.Sc. in Computer Science</h2>
 
 <p>Sept. 2007 – Apr. 2011</p>
 
 <p><em>Helsinki University</em>, Department of Computer Science</p>
 
-<h3 id="toc_4">Päivölä High School of Mathematics</h3>
+<h2 id="toc_4">Päivölä High School of Mathematics</h2>
 
 <p>July 2004 – May 2006</p>
 
@@ -97,7 +119,7 @@ instructors were Prof. Keijo Heljanko and Kari Kähkönen M.Sc. (Tech.).</p>
 thanks to a partnership between Nokia and the school. See the Work
 Experience section for details.</p>
 
-<h2 id="toc_5">Publications</h2>
+<h1 id="toc_5">Publications</h1>
 
 <p>K. Kähkönen, O. Saarikivi and K. Heljanko: <em>LCT: A Parallel Distributed
 Testing Tool for Multithreaded Java Programs</em>. In Proceedings of the
@@ -122,17 +144,15 @@ March 2011, Saarbrücken, Germany.</p>
 
 <h1 id="toc_6">Work Experience</h1>
 
-<h3 id="toc_7">1 Sept. 2013 – present</h3>
+<h2 id="toc_7">Aalto University</h2>
 
-<p><em>Doctoral student</em>, Aalto University, Department of Computer Science and Engineering</p>
+<p><strong>1 Sept. 2013 – present</strong> <em>Doctoral student at the Department of Computer Science and Engineering</em></p>
 
 <p>See the Education section for details.</p>
 
-<h3 id="toc_8">1 June 2010 – 31 Aug. 2013</h3>
+<p><strong>1 June 2010 – 31 Aug. 2013</strong> <em>Research assistant at the Department of Information and Computer Science</em></p>
 
-<p><em>Research assistant</em>, Aalto University, Department of Information and Computer Science</p>
-
-<p>I have been working on projects researching automated software testing
+<p>I worked on projects researching automated software testing
 and verification. I extended the dynamic symbolic execution tool LCT to
 support testing multithreaded Java programs. I also implemented a
 dynamic partial order reduction algorithm and we published the
@@ -140,21 +160,21 @@ improvements I made in the paper “Improving Dynamic Partial Order
 Reductions for Concolic Testing”. For my Master’s Thesis I implemented
 the Dash algorithm for testing C programs.</p>
 
-<p>Since the summer of 2012 I have been employed full time. During previous
-teaching periods I have been employed part time, 1 day per week, while
-the summers have been full time.</p>
+<p>From the summer of 2012 onwards I was employed full time. During previous
+teaching periods I was employed part time, 1 day per week, while
+the summers were full time.</p>
 
-<h3 id="toc_9">1 June 2009 – 31 Aug. 2009</h3>
+<h2 id="toc_8">Helsinki University of Technology</h2>
 
-<p><em>Research assistant</em>, Helsinki University of Technology, Laboratory for Theoretical
-Computer Science</p>
+<p><strong>1 June 2009 – 31 Aug. 2009</strong> <em>Research assistant at the Laboratory for Theoretical
+Computer Science</em></p>
 
 <p>I worked on a project researching formal methods and automated testing.
 I developed a set of utilities to generate test drivers for the
 automated testing tool LCT and unit tests from the output of the testing
 tool. I also designed and implemented a heuristic for directed testing.</p>
 
-<h3 id="toc_10">Optofidelity Ltd.</h3>
+<h2 id="toc_9">Optofidelity Ltd.</h2>
 
 <p><strong>17 June 2008 – 29 June 2008</strong> <em>36 hours of work on a one-off project.</em></p>
 
@@ -166,7 +186,7 @@ tool. I also designed and implemented a heuristic for directed testing.</p>
 machine vision library to track a printed target and read a handwritten
 phone number from it.</p>
 
-<h3 id="toc_11">Nokia Research Center</h3>
+<h2 id="toc_10">Nokia Research Center</h2>
 
 <p><strong>26 June 2006 – 28 July 2006</strong> <em>Full time trainee</em><br />
 <strong>12 Aug. 2005 – 31 May 2006</strong> <em>Part time trainee, 12 hours/week</em><br />
@@ -181,7 +201,7 @@ mobile multiplayer gaming framework.</p>
 <p>This traineeship was part of my education at the Päivölä High School of
 Mathematics.</p>
 
-<h1 id="toc_12">Conferences and Schools</h1>
+<h1 id="toc_11">Conferences and Schools</h1>
 
 <p>Attended the 25th Nordic Workshop on Programming Theory (NWPT 2013) and
 gave a talk titled <em>LCT-D: Test-Guided Proofs for C Programs on LLVM</em>.</p>
@@ -196,7 +216,7 @@ Software Engineering (ASE 2012).</p>
 to System Design (ACSD 2012) to present the paper <em>Improving Dynamic
 Partial Order Reductions for Concolic Testing</em>.</p>
 
-<h1 id="toc_13">Awards and Honours</h1>
+<h1 id="toc_12">Awards and Honours</h1>
 
 <p>I was selected to the <strong>Honours Programme in Information and Computer
 Science</strong> at Aalto University for the academic years 2011–2012 and
@@ -212,9 +232,11 @@ Modeling</strong> in 2005 with Vihtori Mäntylä and Olli-Petteri Pitkänen.</p>
 based organization that holds annual mathematics competitions for
 undergraduate level students.</p>
 
-    </div>
-  </div>
+</article>
 
-  </div>
-  </body>
+</main>
+</div>
+</div>
+</body>
 </html>
+

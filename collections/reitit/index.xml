@@ -5,24 +5,26 @@
       <generator uri="https://hugo.spf13.com">Hugo</generator>
     <link>http://ulber.iki.fi/collections/reitit/index.xml</link>
     <language>en-us</language>
+    <author>Olli Saarikivi</author>
     
-    
-    <updated>Tue, 26 Aug 2014 10:49:35 UTC</updated>
+    <updated>Wed, 27 Aug 2014 10:49:35 UTC</updated>
     
     <item>
-      <title>Reitit for Windows Phone 8.1</title>
-      <link>http://ulber.iki.fi/2014/08/reitit-for-windows-phone-8.1/</link>
-      <pubDate>Tue, 26 Aug 2014 10:49:35 UTC</pubDate>
-      
-      <guid>http://ulber.iki.fi/2014/08/reitit-for-windows-phone-8.1/</guid>
-      <description>&lt;p&gt;&lt;img style=&#34;float: left; margin-right: 1em; margin-bottom: 1em; margin-top: 0.25em;&#34; src=&#34;/reitit.png&#34;/&gt;&lt;/p&gt;
+      <title>Reitit for Windows Phone 8.1 delayed</title>
+      <link>http://ulber.iki.fi/2014/08/reitit-for-windows-phone-8.1-delayed/</link>
+      <pubDate>Wed, 27 Aug 2014 10:49:35 UTC</pubDate>
+      <author>Olli Saarikivi</author>
+      <guid>http://ulber.iki.fi/2014/08/reitit-for-windows-phone-8.1-delayed/</guid>
+      <description>&lt;figure class=&#34;float-left&#34;&gt;
+    &lt;img class=&#34;picture&#34; src=&#34;/reitit-80.png&#34;/&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;Over the summer I have been developing a Windows Phone 8.1 version of my Helsinki metropolitan area route planner app, &lt;a href=&#34;http://www.windowsphone.com/fi-fi/store/app/reitit/30e77f37-ef15-4860-b5d2-c4f7ee96f0e4&#34;&gt;Reitit&lt;/a&gt;. The new version is already mostly feature complete. However, the release of the app will be delayed due to problems I have encountered with the new framework:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;The app is too slow. Page navigation is noticeably slower than in the old version. One optimization that I employed in the WP7 version was to not use databinding and instead create and update all controls in code-behind. I hoped that this would not be required to get smooth navigation on WP8 class hardware. I will have to do further testing to see what is causing the slow page loading.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The app is too slow. Page navigation is noticeably slower than in the old version. One optimization that I employed in the WP7 version was to not use data binding and instead create and update all controls in code-behind. I hoped that this would not be required to get smooth navigation on WP8 class hardware. I will have to do further testing to see what is causing the slow page loading.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;The new &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/windows/apps/xaml/windows.ui.xaml.controls.maps.mapcontrol.aspx&#34;&gt;MapControl&lt;/a&gt; for &amp;ldquo;Windows Phone XAML apps&amp;rdquo; has rendering issues when panning a map that includes UIElement pushpins. Basically the pushpins don&amp;rsquo;t always move at the same speed as the rest of the map. When dragging a finger on the map, both the map image and the pushpins lag behind the touch point, but the map image itself lags &lt;em&gt;more&lt;/em&gt; resulting in the pushpins not staying glued down on to the map.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The new &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/windows/apps/xaml/windows.ui.xaml.controls.maps.mapcontrol.aspx&#34;&gt;MapControl&lt;/a&gt; for &amp;ldquo;Windows Phone XAML apps&amp;rdquo; has rendering issues when panning a map that includes UIElement push pins. Basically the push pins don&amp;rsquo;t always move at the same speed as the rest of the map. When dragging a finger on the map, both the map image and the push pins lag behind the touch point, but the map image itself lags &lt;em&gt;more&lt;/em&gt; resulting in the push pins not staying glued down on to the map.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;The issue with the map control can be tolerated, as the map is otherwise quite a bit more beautiful than the old WP7 map. The page navigation issue, however, is something I will need to fix before publishing the new version.&lt;/p&gt;

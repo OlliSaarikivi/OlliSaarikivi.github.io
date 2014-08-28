@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Posts on Olli Saarikivi </title>
+      <title>Frontpage on Olli Saarikivi </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://ulber.iki.fi/post/index.xml</link>
+    <link>http://ulber.iki.fi/collections/frontpage/index.xml</link>
     <language>en-us</language>
     <author>Olli Saarikivi</author>
     
