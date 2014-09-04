@@ -3,7 +3,7 @@
   <channel>
       <title>News on Olli Saarikivi </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://ulber.iki.fi/collections/news/index.xml</link>
+    <link>http://olli.saarikivi.fi/collections/news/index.xml</link>
     <language>en-us</language>
     <author>Olli Saarikivi</author>
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>New homepage</title>
-      <link>http://ulber.iki.fi/2014/08/new-homepage/</link>
+      <link>http://olli.saarikivi.fi/2014/08/new-homepage/</link>
       <pubDate>Tue, 26 Aug 2014 09:23:49 UTC</pubDate>
       <author>Olli Saarikivi</author>
-      <guid>http://ulber.iki.fi/2014/08/new-homepage/</guid>
+      <guid>http://olli.saarikivi.fi/2014/08/new-homepage/</guid>
       <description>&lt;p&gt;This is my new homepage, which I&amp;rsquo;ve set up to have some web presence aside from Facebook. This will be a place to find my up-to-date CV as well as info on any personal projects I may be working on (as soon as I get around to writing about them).&lt;/p&gt;
 
 &lt;p&gt;The website itself is generated with the static site generator &lt;a href=&#34;http://hugo.spf13.com/&#34;&gt;Hugo&lt;/a&gt;. The theme is a heavily modified version of the &lt;a href=&#34;https://github.com/spf13/hyde&#34;&gt;Hyde&lt;/a&gt; theme. Any comments about the website are welcome.&lt;/p&gt;
