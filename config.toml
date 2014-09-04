@@ -2,12 +2,12 @@ languageCode = "en-us"
 title = "Olli Saarikivi"
 publishdir = "site"
 baseurl = "http://ulber.iki.fi/"
-disqusShortname = "ollisaarikivi"
 canonifyurls = true
 [author]
     name = "Olli Saarikivi"
 [params]
 	Description = ""
+	disqusShortname = "ollisaarikivi"
 [Taxonomies]
 	collection = "collections"
 [permalinks]

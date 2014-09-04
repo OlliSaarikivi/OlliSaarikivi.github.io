@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>
     {{ if eq .Title .Site.Title}}
@@ -13,6 +13,7 @@
     {{ end }}
   </title>
 
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/normalize.css">
   <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/main.css">
   <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/content.css">
   <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/syntax.css">

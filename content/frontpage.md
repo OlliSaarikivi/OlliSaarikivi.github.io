@@ -4,7 +4,7 @@ url = "frontpage"
 +++
 
 <header>
-  <h1>About</h1>
+  <h1 class="reduce-skip">About</h1>
 </header>
 
 I'm a doctoral student at [Aalto University Department of Computer Science and Engineering](http://cse.aalto.fi/en/ "CSE").
