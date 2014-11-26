@@ -3,7 +3,7 @@
   <channel>
       <title>Articles on Olli Saarikivi </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://localhost:1313/article/index.xml</link>
+    <link>http://olli.saarikivi.fi/article/index.xml</link>
     <language>en-us</language>
     <author>Olli Saarikivi</author>
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>CV</title>
-      <link>http://localhost:1313/cv</link>
+      <link>http://olli.saarikivi.fi/cv</link>
       <pubDate>Wed, 26 Nov 2014 00:00:00 UTC</pubDate>
       <author>Olli Saarikivi</author>
-      <guid>http://localhost:1313/cv</guid>
+      <guid>http://olli.saarikivi.fi/cv</guid>
       <description>
 
 &lt;h1 id=&#34;toc_0&#34;&gt;Education&lt;/h1&gt;
