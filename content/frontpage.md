@@ -1,6 +1,7 @@
 +++
 title = "Olli Saarikivi"
 url = "frontpage"
+date = "2014-08-27"
 +++
 
 <header>

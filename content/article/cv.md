@@ -1,6 +1,9 @@
 +++
 title = "CV"
 menu = "main"
+url = "/cv"
+aliases = "/article/cv"
+date = "2014-11-26"
 +++
 
 # Education
@@ -108,6 +111,12 @@ This traineeship was part of my education at the Päivölä High School of
 Mathematics.
 
 # Conferences and Schools
+
+Attended the 11th LASER Summer School on Software Engineering (LASER 2014).
+
+Attended SAT/SMT Summer School 2014.
+
+Attended the 4th Halmstad Summer School on Testing (HSST 2014).
 
 Attended the 25th Nordic Workshop on Programming Theory (NWPT 2013) and
 gave a talk titled *LCT-D: Test-Guided Proofs for C Programs on LLVM*.
