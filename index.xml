@@ -3,78 +3,18 @@
   <channel>
       <title>Recent Content on Olli Saarikivi </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://olli.saarikivi.fi/index.xml</link>
+    <link>http://localhost:1313/index.xml</link>
     <language>en-us</language>
     <author>Olli Saarikivi</author>
     
-    <updated>Wed, 27 Aug 2014 10:49:35 UTC</updated>
-    
-    <item>
-      <title>Reitit for Windows Phone 8.1 delayed</title>
-      <link>http://olli.saarikivi.fi/2014/08/reitit-for-windows-phone-8.1-delayed/</link>
-      <pubDate>Wed, 27 Aug 2014 10:49:35 UTC</pubDate>
-      <author>Olli Saarikivi</author>
-      <guid>http://olli.saarikivi.fi/2014/08/reitit-for-windows-phone-8.1-delayed/</guid>
-      <description>&lt;figure class=&#34;float-right&#34;&gt;
-    &lt;img class=&#34;picture&#34; src=&#34;/reitit-80.png&#34;/&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;span class=&#34;drop-cap&#34;&gt;O&lt;/span&gt;ver the summer I have been developing a Windows Phone 8.1 version of my Helsinki metropolitan area route planner app, &lt;a href=&#34;http://www.windowsphone.com/fi-fi/store/app/reitit/30e77f37-ef15-4860-b5d2-c4f7ee96f0e4&#34;&gt;Reitit&lt;/a&gt;. The new version is already mostly feature complete. However, the release of the app will be delayed due to problems I have encountered with the new framework:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;The app is too slow. Page navigation is noticeably slower than in the old version. One optimization that I employed in the WP7 version was to not use data binding and instead create and update all controls in code-behind. I hoped that this would not be required to get smooth navigation on WP8 class hardware. I will have to do further testing to see what is causing the slow page loading.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The new &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/windows/apps/xaml/windows.ui.xaml.controls.maps.mapcontrol.aspx&#34;&gt;MapControl&lt;/a&gt; for &amp;ldquo;Windows Phone XAML apps&amp;rdquo; has rendering issues when panning a map that includes UIElement push pins. Basically the push pins don&amp;rsquo;t always move at the same speed as the rest of the map. When dragging a finger on the map, both the map image and the push pins lag behind the touch point, but the map image itself lags &lt;em&gt;more&lt;/em&gt; resulting in the push pins not staying glued down on to the map.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The issue with the map control can be tolerated, as the map is otherwise quite a bit more beautiful than the old WP7 map. The page navigation issue, however, is something I will need to fix before publishing the new version.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>New homepage</title>
-      <link>http://olli.saarikivi.fi/2014/08/new-homepage/</link>
-      <pubDate>Tue, 26 Aug 2014 09:23:49 UTC</pubDate>
-      <author>Olli Saarikivi</author>
-      <guid>http://olli.saarikivi.fi/2014/08/new-homepage/</guid>
-      <description>&lt;p&gt;This is my new homepage, which I&amp;rsquo;ve set up to have some web presence aside from Facebook. This will be a place to find my up-to-date CV as well as info on any personal projects I may be working on (as soon as I get around to writing about them).&lt;/p&gt;
-
-&lt;p&gt;The website itself is generated with the static site generator &lt;a href=&#34;http://hugo.spf13.com/&#34;&gt;Hugo&lt;/a&gt;. The theme is a heavily modified version of the &lt;a href=&#34;https://github.com/spf13/hyde&#34;&gt;Hyde&lt;/a&gt; theme. Any comments about the website are welcome.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Olli Saarikivi</title>
-      <link>http://olli.saarikivi.fi/frontpage</link>
-      <pubDate>Tue, 01 Jan 2008 00:00:00 UTC</pubDate>
-      <author>Olli Saarikivi</author>
-      <guid>http://olli.saarikivi.fi/frontpage</guid>
-      <description>
-
-&lt;header&gt;
-  &lt;h1 class=&#34;reduce-skip&#34;&gt;About&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;p&gt;I&amp;rsquo;m a doctoral student at &lt;a href=&#34;http://cse.aalto.fi/en/&#34; title=&#34;CSE&#34;&gt;Aalto University Department of Computer Science and Engineering&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;toc_0&#34;&gt;Email&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;mailto:olli.saarikivi@iki.fi&#34;&gt;olli.saarikivi@iki.fi&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;toc_1&#34;&gt;Office Address&lt;/h3&gt;
-
-&lt;p&gt;Aalto University School of Science&lt;br /&gt;
-Department of Computer Science and Engineering&lt;br /&gt;
-PO Box 15400, FI-00076 Aalto, Finland&lt;/p&gt;
-</description>
-    </item>
+    <updated>Wed, 26 Nov 2014 00:00:00 UTC</updated>
     
     <item>
       <title>CV</title>
-      <link>http://olli.saarikivi.fi/article/cv</link>
-      <pubDate>Tue, 01 Jan 2008 00:00:00 UTC</pubDate>
+      <link>http://localhost:1313/cv</link>
+      <pubDate>Wed, 26 Nov 2014 00:00:00 UTC</pubDate>
       <author>Olli Saarikivi</author>
-      <guid>http://olli.saarikivi.fi/article/cv</guid>
+      <guid>http://localhost:1313/cv</guid>
       <description>
 
 &lt;h1 id=&#34;toc_0&#34;&gt;Education&lt;/h1&gt;
@@ -189,6 +129,12 @@ Mathematics.&lt;/p&gt;
 
 &lt;h1 id=&#34;toc_11&#34;&gt;Conferences and Schools&lt;/h1&gt;
 
+&lt;p&gt;Attended the 11th LASER Summer School on Software Engineering (LASER 2014).&lt;/p&gt;
+
+&lt;p&gt;Attended SAT/SMT Summer School 2014.&lt;/p&gt;
+
+&lt;p&gt;Attended the 4th Halmstad Summer School on Testing (HSST 2014).&lt;/p&gt;
+
 &lt;p&gt;Attended the 25th Nordic Workshop on Programming Theory (NWPT 2013) and
 gave a talk titled &lt;em&gt;LCT-D: Test-Guided Proofs for C Programs on LLVM&lt;/em&gt;.&lt;/p&gt;
 
@@ -217,6 +163,66 @@ Modeling&lt;/strong&gt; in 2005 with Vihtori Mäntylä and Olli-Petteri Pitkäne
 &lt;p&gt;COMAP, the Consortium for Mathematics and Its Applications, is a USA
 based organization that holds annual mathematics competitions for
 undergraduate level students.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reitit for Windows Phone 8.1 delayed</title>
+      <link>http://localhost:1313/2014/08/reitit-for-windows-phone-8.1-delayed/</link>
+      <pubDate>Wed, 27 Aug 2014 10:49:35 UTC</pubDate>
+      <author>Olli Saarikivi</author>
+      <guid>http://localhost:1313/2014/08/reitit-for-windows-phone-8.1-delayed/</guid>
+      <description>&lt;figure class=&#34;float-right&#34;&gt;
+    &lt;img class=&#34;picture&#34; src=&#34;/reitit-80.png&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;span class=&#34;drop-cap&#34;&gt;O&lt;/span&gt;ver the summer I have been developing a Windows Phone 8.1 version of my Helsinki metropolitan area route planner app, &lt;a href=&#34;http://www.windowsphone.com/fi-fi/store/app/reitit/30e77f37-ef15-4860-b5d2-c4f7ee96f0e4&#34;&gt;Reitit&lt;/a&gt;. The new version is already mostly feature complete. However, the release of the app will be delayed due to problems I have encountered with the new framework:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The app is too slow. Page navigation is noticeably slower than in the old version. One optimization that I employed in the WP7 version was to not use data binding and instead create and update all controls in code-behind. I hoped that this would not be required to get smooth navigation on WP8 class hardware. I will have to do further testing to see what is causing the slow page loading.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The new &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/windows/apps/xaml/windows.ui.xaml.controls.maps.mapcontrol.aspx&#34;&gt;MapControl&lt;/a&gt; for &amp;ldquo;Windows Phone XAML apps&amp;rdquo; has rendering issues when panning a map that includes UIElement push pins. Basically the push pins don&amp;rsquo;t always move at the same speed as the rest of the map. When dragging a finger on the map, both the map image and the push pins lag behind the touch point, but the map image itself lags &lt;em&gt;more&lt;/em&gt; resulting in the push pins not staying glued down on to the map.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The issue with the map control can be tolerated, as the map is otherwise quite a bit more beautiful than the old WP7 map. The page navigation issue, however, is something I will need to fix before publishing the new version.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Olli Saarikivi</title>
+      <link>http://localhost:1313/frontpage</link>
+      <pubDate>Wed, 27 Aug 2014 00:00:00 UTC</pubDate>
+      <author>Olli Saarikivi</author>
+      <guid>http://localhost:1313/frontpage</guid>
+      <description>
+
+&lt;header&gt;
+  &lt;h1 class=&#34;reduce-skip&#34;&gt;About&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;p&gt;I&amp;rsquo;m a doctoral student at &lt;a href=&#34;http://cse.aalto.fi/en/&#34; title=&#34;CSE&#34;&gt;Aalto University Department of Computer Science and Engineering&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_0&#34;&gt;Email&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;mailto:olli.saarikivi@iki.fi&#34;&gt;olli.saarikivi@iki.fi&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_1&#34;&gt;Office Address&lt;/h3&gt;
+
+&lt;p&gt;Aalto University School of Science&lt;br /&gt;
+Department of Computer Science and Engineering&lt;br /&gt;
+PO Box 15400, FI-00076 Aalto, Finland&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New homepage</title>
+      <link>http://localhost:1313/2014/08/new-homepage/</link>
+      <pubDate>Tue, 26 Aug 2014 09:23:49 UTC</pubDate>
+      <author>Olli Saarikivi</author>
+      <guid>http://localhost:1313/2014/08/new-homepage/</guid>
+      <description>&lt;p&gt;This is my new homepage, which I&amp;rsquo;ve set up to have some web presence aside from Facebook. This will be a place to find my up-to-date CV as well as info on any personal projects I may be working on (as soon as I get around to writing about them).&lt;/p&gt;
+
+&lt;p&gt;The website itself is generated with the static site generator &lt;a href=&#34;http://hugo.spf13.com/&#34;&gt;Hugo&lt;/a&gt;. The theme is a heavily modified version of the &lt;a href=&#34;https://github.com/spf13/hyde&#34;&gt;Hyde&lt;/a&gt; theme. Any comments about the website are welcome.&lt;/p&gt;
 </description>
     </item>
     

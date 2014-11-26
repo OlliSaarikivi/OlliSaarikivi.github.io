@@ -3,18 +3,18 @@
   <channel>
       <title>Articles on Olli Saarikivi </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://olli.saarikivi.fi/article/index.xml</link>
+    <link>http://localhost:1313/article/index.xml</link>
     <language>en-us</language>
     <author>Olli Saarikivi</author>
     
-    <updated>Tue, 01 Jan 2008 00:00:00 UTC</updated>
+    <updated>Wed, 26 Nov 2014 00:00:00 UTC</updated>
     
     <item>
       <title>CV</title>
-      <link>http://olli.saarikivi.fi/article/cv</link>
-      <pubDate>Tue, 01 Jan 2008 00:00:00 UTC</pubDate>
+      <link>http://localhost:1313/cv</link>
+      <pubDate>Wed, 26 Nov 2014 00:00:00 UTC</pubDate>
       <author>Olli Saarikivi</author>
-      <guid>http://olli.saarikivi.fi/article/cv</guid>
+      <guid>http://localhost:1313/cv</guid>
       <description>
 
 &lt;h1 id=&#34;toc_0&#34;&gt;Education&lt;/h1&gt;
@@ -128,6 +128,12 @@ mobile multiplayer gaming framework.&lt;/p&gt;
 Mathematics.&lt;/p&gt;
 
 &lt;h1 id=&#34;toc_11&#34;&gt;Conferences and Schools&lt;/h1&gt;
+
+&lt;p&gt;Attended the 11th LASER Summer School on Software Engineering (LASER 2014).&lt;/p&gt;
+
+&lt;p&gt;Attended SAT/SMT Summer School 2014.&lt;/p&gt;
+
+&lt;p&gt;Attended the 4th Halmstad Summer School on Testing (HSST 2014).&lt;/p&gt;
 
 &lt;p&gt;Attended the 25th Nordic Workshop on Programming Theory (NWPT 2013) and
 gave a talk titled &lt;em&gt;LCT-D: Test-Guided Proofs for C Programs on LLVM&lt;/em&gt;.&lt;/p&gt;
