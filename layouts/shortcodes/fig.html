@@ -1,0 +1,16 @@
+<figure {{ with .Get "float"}}class="float-{{.}}"{{ end }}>
+	{{ with .Get "link"}}<a href="{{.}}">{{ end }}
+	<img class="picture" src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} {{ with .Get "width" }}width="{{.}}"{{ end }}/>
+	{{ if .Get "link"}}</a>{{ end }}
+	{{ if or (or (.Get "name") (.Get "caption")) (.Get "attr")}}
+	<figcaption>
+		{{ with .Get "name" }}<h3>{{.}}:</h3>{{ end }}
+		{{ if or (.Get "caption") (.Get "attr")}}
+			{{ .Get "caption" }}
+			{{ with .Get "attrlink"}}<a href="{{.}}"> {{ end }}
+			{{ .Get "attr" }}
+			{{ if .Get "attrlink"}}</a> {{ end }}
+		{{ end }}
+	</figcaption>
+	{{ end }}
+</figure>

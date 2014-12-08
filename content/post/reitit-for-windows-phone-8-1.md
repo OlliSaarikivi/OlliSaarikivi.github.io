@@ -4,11 +4,9 @@ date = 2014-08-27T10:49:35Z
 collections = ["posts", "frontpage", "reitit"]
 +++
 
-<figure class="float-right">
-	<img class="picture" src="/reitit-80.png"/>
-</figure>
+{{% fig float="right" src="/reitit-80.png" %}}
 
-<span class="drop-cap">O</span>ver the summer I have been developing a Windows Phone 8.1 version of my Helsinki metropolitan area route planner app, [Reitit](http://www.windowsphone.com/fi-fi/store/app/reitit/30e77f37-ef15-4860-b5d2-c4f7ee96f0e4). The new version is already mostly feature complete. However, the release of the app will be delayed due to problems I have encountered with the new framework:
+{{% dropcap O %}}ver the summer I have been developing a Windows Phone 8.1 version of my Helsinki metropolitan area route planner app, [Reitit](http://www.windowsphone.com/fi-fi/store/app/reitit/30e77f37-ef15-4860-b5d2-c4f7ee96f0e4). The new version is already mostly feature complete. However, the release of the app will be delayed due to problems I have encountered with the new framework:
 
 1. The app is too slow. Page navigation is noticeably slower than in the old version. One optimization that I employed in the WP7 version was to not use data binding and instead create and update all controls in code-behind. I hoped that this would not be required to get smooth navigation on WP8 class hardware. I will have to do further testing to see what is causing the slow page loading.
 
