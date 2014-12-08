@@ -173,7 +173,10 @@ undergraduate level students.&lt;/p&gt;
       <author>Olli Saarikivi</author>
       <guid>http://olli.saarikivi.fi/2014/08/reitit-for-windows-phone-8.1-delayed/</guid>
       <description>&lt;figure class=&#34;float-right&#34;&gt;
-    &lt;img class=&#34;picture&#34; src=&#34;/reitit-80.png&#34;/&gt;
+    
+    &lt;img class=&#34;picture&#34; src=&#34;/reitit-80.png&#34;  /&gt;
+    
+    
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;span class=&#34;drop-cap&#34;&gt;O&lt;/span&gt;ver the summer I have been developing a Windows Phone 8.1 version of my Helsinki metropolitan area route planner app, &lt;a href=&#34;http://www.windowsphone.com/fi-fi/store/app/reitit/30e77f37-ef15-4860-b5d2-c4f7ee96f0e4&#34;&gt;Reitit&lt;/a&gt;. The new version is already mostly feature complete. However, the release of the app will be delayed due to problems I have encountered with the new framework:&lt;/p&gt;
