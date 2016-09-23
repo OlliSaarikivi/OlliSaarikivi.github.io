@@ -11,14 +11,10 @@ date = "2014-11-26"
 ## Doctoral student
 **Sept. 2013 – present** Aalto University, Department Computer Science and Engineering
 
-My thesis working title is “Automated testing methods for concurrent
-software”.
+My thesis topics include automated testing methods for sequential and concurrent software, and applications of symbolic automata and transducers to optimizing stream computations.
 
 ## M.Sc. in Computer Science
 **Sept. 2011 – Aug. 2013** Aalto University, Department of Information and Computer Science
-
-The thesis title was “Test-Guided Proofs for C Programs on LLVM”. My
-instructors were Prof. Keijo Heljanko and Kari Kähkönen M.Sc. (Tech.).
 
 ## B.Sc. in Computer Science
 **Sept. 2007 – Apr. 2011** Helsinki University, Department of Computer Science
@@ -32,26 +28,55 @@ Experience section for details.
 
 # Publications
 
-K. Kähkönen, O. Saarikivi and K. Heljanko: *LCT: A Parallel Distributed
-Testing Tool for Multithreaded Java Programs*. In Proceedings of the
-11th International Workshop on Parallel and Distributed Methods in
-verifiCation (PDMC 2012), 17 September 2012, London, UK.
+Olli Saarikivi, Keijo Heljanko:
+*LCTD: Tests-Guided Proofs for C Programs on LLVM - (Competition Contribution)*.
+TACAS 2016.
+{{% doi "10.1007/978-3-662-49674-9_62" %}}
 
-K. Kähkönen, O. Saarikivi and K. Heljanko: *Using Unfoldings in
-Automated Testing of Multithreaded Programs*. In Proceedings of the 27th
-IEEE/ACM International Conference on Automated Software Engineering (ASE
-2012), pages 150-159, 3-7 September 2012, Essen, Germany.
+Olli Saarikivi, Keijo Heljanko:
+*LCTD: Test-guided proofs for C programs on LLVM*.
+Journal of Logical and Algebraic Methods in Programming (2015).
+{{% doi "10.1016/j.jlamp.2015.10.010" %}}
 
-O. Saarikivi, K. Kähkönen and K. Heljanko: *Improving Dynamic Partial
-Order Reductions for Concolic Testing*. In Proceedings of the 12th
-International Conference on Application of Concurrency to System Design
-(ACSD’2012), pages 132-141, 25-29 June 2012, Hamburg, Germany.
+Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
+*Unfolding based automated testing of multithreaded programs*.
+Autom. Softw. Eng. 22(4): 475-515 (2015).
+{{% doi "10.1007/s10515-014-0150-6" %}}
 
-K. Kähkönen, T. Launiainen, O. Saarikivi, J. Kauttio, K. Heljanko, and
-I. Niemelä: *LCT: An Open Source Concolic Testing Tool for Java
-Programs*. In Proceedings of the 6th Workshop on Bytecode Semantics,
-Verification, Analysis and Transformation (BYTECODE’2011), pages 75-80,
-March 2011, Saarbrücken, Germany.
+Hernán Ponce de León, Olli Saarikivi, Kari Kähkönen, Keijo Heljanko, Javier Esparza:
+*Unfolding Based Minimal Test Suites for Testing Multithreaded Programs*.
+ACSD 2015.
+{{% doi "10.1109/ACSD.2015.12" %}}
+
+Olli Saarikivi, Keijo Heljanko:
+*Reporting Races in Dynamic Partial Order Reduction*.
+NFM 2015.
+{{% doi "10.1007/978-3-319-17524-9_35" %}}
+
+Olli Saarikivi:
+*Test-Guided Proofs for C Programs on LLVM*.
+Master's thesis (2013).
+{{% pdf "msc-thesis-osaariki.pdf" %}}
+
+Kari Kähkönen, Olli Saarikivi and Keijo Heljanko:
+*LCT: A Parallel Distributed Testing Tool for Multithreaded Java Programs*.
+PDMC 2012.
+{{% doi "10.1016/j.entcs.2013.09.002" %}}
+
+Kari Kähkönen, Olli Saarikivi and Keijo Heljanko:
+*Using Unfoldings in Automated Testing of Multithreaded Programs*.
+ASE 2012.
+{{% doi "10.1007/s10515-014-0150-6" %}}
+
+Olli Saarikivi, Kari Kähkönen and Keijo Heljanko:
+*Improving Dynamic Partial Order Reductions for Concolic Testing*.
+ACSD 2012.
+{{% doi "10.1109/ACSD.2012.18" %}}
+
+Kari Kähkönen, Tuomas Launiainen, Olli Saarikivi, Janne Kauttio, Keijo Heljanko, and Ilkka Niemelä:
+*LCT: An Open Source Concolic Testing Tool for JavaPrograms*.
+BYTECODE 2011.
+{{% pdf "KahLauSaaKauHelNie-BYTECODE2011.pdf" %}}
 
 # Work Experience
 
@@ -73,6 +98,16 @@ the Dash algorithm for testing C programs.
 From the summer of 2012 onwards I was employed full time. During previous
 teaching periods I was employed part time, 1 day per week, while
 the summers were full time.
+
+## Microsoft Research
+
+**6 June 2016 - 9 Sept. 2016** Research intern
+
+I integrated a code generator for string matchers into the Scope query language for Microsoft's internal Cosmos big data platform. The code generator used symbolic automata enable minimization and composition of string matchers. On a popular set of regex benchmarks the code generator was 1.1X faster than Google's RE2 regex engine.
+
+**2 Feb. 2015 - 8 May 2015** Research intern
+
+Interning under Margus Veanes I developed a tool that allows users to specify symbolic transducers as imperative C# code, fuses compositions of symbolic transducers and finally generates efficient C# that shows significant speedups over modular hand-written and LINQ implementations. We developed a fusion procedure that uses an SMT solver and reachability analysis to make fusing larger compositions feasible.
 
 ## Helsinki University of Technology
 **1 June 2009 – 31 Aug. 2009** Research assistant at the Laboratory for Theoretical
@@ -133,15 +168,15 @@ Partial Order Reductions for Concolic Testing*.
 
 # Awards and Honours
 
-I was selected to the **Honours Programme in Information and Computer
-Science** at Aalto University for the academic years 2011–2012 and
+I was selected to the *Honours Programme in Information and Computer
+Science* at Aalto University for the academic years 2011–2012 and
 2012–2013.
 
-**Meritorious Winner in the COMAP MCM: Mathematical Contest in
-Modeling** in 2006 with Olli Salli and Matti Nelimarkka.
+*Meritorious Winner in the COMAP MCM: Mathematical Contest in
+Modeling* in 2006 with Olli Salli and Matti Nelimarkka.
 
-**Meritorious Winner in the COMAP ICM: Interdisciplinary Contest in
-Modeling** in 2005 with Vihtori Mäntylä and Olli-Petteri Pitkänen.
+*Meritorious Winner in the COMAP ICM: Interdisciplinary Contest in
+Modeling* in 2005 with Vihtori Mäntylä and Olli-Petteri Pitkänen.
 
 COMAP, the Consortium for Mathematics and Its Applications, is a USA
 based organization that holds annual mathematics competitions for

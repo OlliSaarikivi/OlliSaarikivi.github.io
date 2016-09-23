@@ -13,6 +13,10 @@ canonifyurls = true
 [permalinks]
 	post = "/:year/:month/:slug/"
 [[menu.main]]
+    name = "About"
+    Url = "/"
+    weight = 0
+[[menu.main]]
     name = "Posts"
     Url = "/collections/posts"
     weight = 100

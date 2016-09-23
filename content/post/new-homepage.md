@@ -1,5 +1,5 @@
 +++
-title = "New homepage"
+title = "New Homepage"
 date = 2014-08-26T09:23:49Z
 collections = ["posts", "frontpage", "news"]
 +++
