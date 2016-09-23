@@ -1,0 +1,25 @@
+figure.float-left {
+  float: left;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 1em;
+}
+
+figure.float-right {
+  float: right;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  margin-right: 0;
+}
+
+.drop-cap {
+  float: left;
+  color: #063F3F;
+  font-size: 3.5em;
+  line-height: 0.75em;
+  padding-top: 0;
+  padding-right: 0.03em;
+  font-family: Georgia, serif;
+}
