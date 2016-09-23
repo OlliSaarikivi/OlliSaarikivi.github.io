@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="58.824718mm"
+   height="36.698799mm"
+   viewBox="0 0 208.43404 130.03511"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       id="perspective2837"
+       inkscape:persp3d-origin="200 : 4.6666665 : 1"
+       inkscape:vp_z="400.00001 : 6.999999 : 1"
+       inkscape:vp_y="0 : 999.99999 : 0"
+       inkscape:vp_x="0 : 6.9999993 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="111.43453"
+     inkscape:cy="83.827483"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1-1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1192"
+     inkscape:window-y="540"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.053547,-694.53336)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3367"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(1.1961921,0,0,1.1961921,-0.01050551,-136.95713)"><flowRegion
+         id="flowRegion3369"><rect
+           id="rect3371"
+           width="8.5714283"
+           height="52.142857"
+           x="124.28571"
+           y="195.93364" /></flowRegion><flowPara
+         id="flowPara3373" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:47.84768295px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-6.1500988"
+       y="770.67175"
+       id="text4756"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4758"
+         x="-6.1500988"
+         y="770.67175"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:107.6572876px;font-family:Cambria;-inkscape-font-specification:Cambria;fill:#053333;fill-opacity:1">OLLI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20.83246994px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-2.5098231"
+       y="813.11884"
+       id="text4756-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4758-0"
+         x="-2.5098231"
+         y="813.11884"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.8730545px;font-family:Cambria;-inkscape-font-specification:Cambria;fill:#053333;fill-opacity:1">SAARIKIVI</tspan></text>
+    <g
+       id="layer1-1"
+       transform="translate(-88.696455,-218.02003)">
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#053333;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 88.750002,1041.5885 c 208.429378,0 208.429378,0 208.429378,0"
+         id="path4863"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
