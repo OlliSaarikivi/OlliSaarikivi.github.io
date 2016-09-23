@@ -23,15 +23,11 @@
 
 &lt;p&gt;&lt;strong&gt;Sept. 2013 – present&lt;/strong&gt; Aalto University, Department Computer Science and Engineering&lt;/p&gt;
 
-&lt;p&gt;My thesis working title is “Automated testing methods for concurrent
-software”.&lt;/p&gt;
+&lt;p&gt;My thesis topics include automated testing methods for sequential and concurrent software, and applications of symbolic automata and transducers to optimizing stream computations.&lt;/p&gt;
 
 &lt;h2 id=&#34;m-sc-in-computer-science&#34;&gt;M.Sc. in Computer Science&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Sept. 2011 – Aug. 2013&lt;/strong&gt; Aalto University, Department of Information and Computer Science&lt;/p&gt;
-
-&lt;p&gt;The thesis title was “Test-Guided Proofs for C Programs on LLVM”. My
-instructors were Prof. Keijo Heljanko and Kari Kähkönen M.Sc. (Tech.).&lt;/p&gt;
 
 &lt;h2 id=&#34;b-sc-in-computer-science&#34;&gt;B.Sc. in Computer Science&lt;/h2&gt;
 
@@ -47,26 +43,55 @@ Experience section for details.&lt;/p&gt;
 
 &lt;h1 id=&#34;publications&#34;&gt;Publications&lt;/h1&gt;
 
-&lt;p&gt;K. Kähkönen, O. Saarikivi and K. Heljanko: &lt;em&gt;LCT: A Parallel Distributed
-Testing Tool for Multithreaded Java Programs&lt;/em&gt;. In Proceedings of the
-11th International Workshop on Parallel and Distributed Methods in
-verifiCation (PDMC 2012), 17 September 2012, London, UK.&lt;/p&gt;
+&lt;p&gt;Olli Saarikivi, Keijo Heljanko:
+&lt;em&gt;LCTD: Tests-Guided Proofs for C Programs on LLVM - (Competition Contribution)&lt;/em&gt;.
+TACAS 2016.
+&lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/978-3-662-49674-9_62&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
-&lt;p&gt;K. Kähkönen, O. Saarikivi and K. Heljanko: &lt;em&gt;Using Unfoldings in
-Automated Testing of Multithreaded Programs&lt;/em&gt;. In Proceedings of the 27th
-IEEE/ACM International Conference on Automated Software Engineering (ASE
-2012), pages 150-159, 3-7 September 2012, Essen, Germany.&lt;/p&gt;
+&lt;p&gt;Olli Saarikivi, Keijo Heljanko:
+&lt;em&gt;LCTD: Test-guided proofs for C programs on LLVM&lt;/em&gt;.
+Journal of Logical and Algebraic Methods in Programming (2015).
+&lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1016/j.jlamp.2015.10.010&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
-&lt;p&gt;O. Saarikivi, K. Kähkönen and K. Heljanko: &lt;em&gt;Improving Dynamic Partial
-Order Reductions for Concolic Testing&lt;/em&gt;. In Proceedings of the 12th
-International Conference on Application of Concurrency to System Design
-(ACSD’2012), pages 132-141, 25-29 June 2012, Hamburg, Germany.&lt;/p&gt;
+&lt;p&gt;Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
+&lt;em&gt;Unfolding based automated testing of multithreaded programs&lt;/em&gt;.
+Autom. Softw. Eng. 22(4): 475-515 (2015).
+&lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/s10515-014-0150-6&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
-&lt;p&gt;K. Kähkönen, T. Launiainen, O. Saarikivi, J. Kauttio, K. Heljanko, and
-I. Niemelä: &lt;em&gt;LCT: An Open Source Concolic Testing Tool for Java
-Programs&lt;/em&gt;. In Proceedings of the 6th Workshop on Bytecode Semantics,
-Verification, Analysis and Transformation (BYTECODE’2011), pages 75-80,
-March 2011, Saarbrücken, Germany.&lt;/p&gt;
+&lt;p&gt;Hernán Ponce de León, Olli Saarikivi, Kari Kähkönen, Keijo Heljanko, Javier Esparza:
+&lt;em&gt;Unfolding Based Minimal Test Suites for Testing Multithreaded Programs&lt;/em&gt;.
+ACSD 2015.
+&lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1109/ACSD.2015.12&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
+
+&lt;p&gt;Olli Saarikivi, Keijo Heljanko:
+&lt;em&gt;Reporting Races in Dynamic Partial Order Reduction&lt;/em&gt;.
+NFM 2015.
+&lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/978-3-319-17524-9_35&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
+
+&lt;p&gt;Olli Saarikivi:
+&lt;em&gt;Test-Guided Proofs for C Programs on LLVM&lt;/em&gt;.
+Master&amp;rsquo;s thesis (2013).
+&lt;a class=&#34;pub-link&#34; href=&#34;http://olli.saarikivi.fi/files/msc-thesis-osaariki.pdf&#34;&gt;PDF&lt;/a&gt;&amp;ensp;&lt;/p&gt;
+
+&lt;p&gt;Kari Kähkönen, Olli Saarikivi and Keijo Heljanko:
+&lt;em&gt;LCT: A Parallel Distributed Testing Tool for Multithreaded Java Programs&lt;/em&gt;.
+PDMC 2012.
+&lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1016/j.entcs.2013.09.002&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
+
+&lt;p&gt;Kari Kähkönen, Olli Saarikivi and Keijo Heljanko:
+&lt;em&gt;Using Unfoldings in Automated Testing of Multithreaded Programs&lt;/em&gt;.
+ASE 2012.
+&lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/s10515-014-0150-6&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
+
+&lt;p&gt;Olli Saarikivi, Kari Kähkönen and Keijo Heljanko:
+&lt;em&gt;Improving Dynamic Partial Order Reductions for Concolic Testing&lt;/em&gt;.
+ACSD 2012.
+&lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1109/ACSD.2012.18&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
+
+&lt;p&gt;Kari Kähkönen, Tuomas Launiainen, Olli Saarikivi, Janne Kauttio, Keijo Heljanko, and Ilkka Niemelä:
+&lt;em&gt;LCT: An Open Source Concolic Testing Tool for JavaPrograms&lt;/em&gt;.
+BYTECODE 2011.
+&lt;a class=&#34;pub-link&#34; href=&#34;http://olli.saarikivi.fi/files/KahLauSaaKauHelNie-BYTECODE2011.pdf&#34;&gt;PDF&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;h1 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h1&gt;
 
@@ -89,6 +114,16 @@ the Dash algorithm for testing C programs.&lt;/p&gt;
 &lt;p&gt;From the summer of 2012 onwards I was employed full time. During previous
 teaching periods I was employed part time, 1 day per week, while
 the summers were full time.&lt;/p&gt;
+
+&lt;h2 id=&#34;microsoft-research&#34;&gt;Microsoft Research&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;6 June 2016 - 9 Sept. 2016&lt;/strong&gt; Research intern&lt;/p&gt;
+
+&lt;p&gt;I integrated a code generator for string matchers into the Scope query language for Microsoft&amp;rsquo;s internal Cosmos big data platform. The code generator used symbolic automata enable minimization and composition of string matchers. On a popular set of regex benchmarks the code generator was 1.1X faster than Google&amp;rsquo;s RE2 regex engine.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2 Feb. 2015 - 8 May 2015&lt;/strong&gt; Research intern&lt;/p&gt;
+
+&lt;p&gt;Interning under Margus Veanes I developed a tool that allows users to specify symbolic transducers as imperative C# code, fuses compositions of symbolic transducers and finally generates efficient C# that shows significant speedups over modular hand-written and LINQ implementations. We developed a fusion procedure that uses an SMT solver and reachability analysis to make fusing larger compositions feasible.&lt;/p&gt;
 
 &lt;h2 id=&#34;helsinki-university-of-technology&#34;&gt;Helsinki University of Technology&lt;/h2&gt;
 
@@ -150,15 +185,15 @@ Partial Order Reductions for Concolic Testing&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h1 id=&#34;awards-and-honours&#34;&gt;Awards and Honours&lt;/h1&gt;
 
-&lt;p&gt;I was selected to the &lt;strong&gt;Honours Programme in Information and Computer
-Science&lt;/strong&gt; at Aalto University for the academic years 2011–2012 and
+&lt;p&gt;I was selected to the &lt;em&gt;Honours Programme in Information and Computer
+Science&lt;/em&gt; at Aalto University for the academic years 2011–2012 and
 2012–2013.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Meritorious Winner in the COMAP MCM: Mathematical Contest in
-Modeling&lt;/strong&gt; in 2006 with Olli Salli and Matti Nelimarkka.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Meritorious Winner in the COMAP MCM: Mathematical Contest in
+Modeling&lt;/em&gt; in 2006 with Olli Salli and Matti Nelimarkka.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Meritorious Winner in the COMAP ICM: Interdisciplinary Contest in
-Modeling&lt;/strong&gt; in 2005 with Vihtori Mäntylä and Olli-Petteri Pitkänen.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Meritorious Winner in the COMAP ICM: Interdisciplinary Contest in
+Modeling&lt;/em&gt; in 2005 with Vihtori Mäntylä and Olli-Petteri Pitkänen.&lt;/p&gt;
 
 &lt;p&gt;COMAP, the Consortium for Mathematics and Its Applications, is a USA
 based organization that holds annual mathematics competitions for
