@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Olli Saarikivi</title>
+    <link>http://olli.saarikivi.fi/collections/news/</link>
+    <description>Recent content in News on Olli Saarikivi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Aug 2014 09:23:49 +0000</lastBuildDate>
+    <atom:link href="http://olli.saarikivi.fi/collections/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New homepage</title>
+      <link>http://olli.saarikivi.fi/2014/08/new-homepage/</link>
+      <pubDate>Tue, 26 Aug 2014 09:23:49 +0000</pubDate>
+      
+      <guid>http://olli.saarikivi.fi/2014/08/new-homepage/</guid>
+      <description>&lt;p&gt;This is my new homepage, which I&amp;rsquo;ve set up to have some web presence aside from Facebook. This will be a place to find my up-to-date CV as well as info on any personal projects I may be working on (as soon as I get around to writing about them).&lt;/p&gt;
+
+&lt;p&gt;The website itself is generated with the static site generator &lt;a href=&#34;http://hugo.spf13.com/&#34;&gt;Hugo&lt;/a&gt;. The theme is a heavily modified version of the &lt;a href=&#34;https://github.com/spf13/hyde&#34;&gt;Hyde&lt;/a&gt; theme. Any comments about the website are welcome.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
