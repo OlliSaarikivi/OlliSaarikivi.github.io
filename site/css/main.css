@@ -124,6 +124,7 @@ abbr[title] {
 .logo {
   display: block;
   margin: auto;
+  width: 58mm;
 }
 
 /* Code */
