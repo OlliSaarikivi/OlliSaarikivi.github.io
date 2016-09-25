@@ -5,10 +5,8 @@
 <article>
   <header>
     <h1>{{ .Title }}</h1>
-    <details id="toc-details">
-    	<summary><strong>Table of contents</strong> [<a class="toggler"></a>]</summary>
-    	{{ .TableOfContents }}
-    </details>
+    <h3>Table of contents</h3>
+    {{ .TableOfContents }}
   </header>
   {{ .Content }}
 </article>
