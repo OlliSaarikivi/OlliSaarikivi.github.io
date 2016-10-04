@@ -44,8 +44,8 @@ Experience section for details.&lt;/p&gt;
 &lt;h1 id=&#34;publications&#34;&gt;Publications&lt;/h1&gt;
 
 &lt;p&gt;Olli Saarikivi, Keijo Heljanko:
-&lt;em&gt;LCTD: Tests-Guided Proofs for C Programs on LLVM - (Competition Contribution)&lt;/em&gt;.
-TACAS 2016.
+&lt;em&gt;LCTD: Tests-guided proofs for C programs on LLVM (competition contribution)&lt;/em&gt;.
+SV-COMP, TACAS 2016.
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/978-3-662-49674-9_62&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Olli Saarikivi, Keijo Heljanko:
@@ -59,37 +59,37 @@ Autom. Softw. Eng. 22(4): 475-515 (2015).
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/s10515-014-0150-6&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Hernán Ponce de León, Olli Saarikivi, Kari Kähkönen, Keijo Heljanko, Javier Esparza:
-&lt;em&gt;Unfolding Based Minimal Test Suites for Testing Multithreaded Programs&lt;/em&gt;.
+&lt;em&gt;Unfolding based minimal test suites for testing multithreaded programs&lt;/em&gt;.
 ACSD 2015.
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1109/ACSD.2015.12&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Olli Saarikivi, Keijo Heljanko:
-&lt;em&gt;Reporting Races in Dynamic Partial Order Reduction&lt;/em&gt;.
+&lt;em&gt;Reporting races in dynamic partial order reduction&lt;/em&gt;.
 NFM 2015.
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/978-3-319-17524-9_35&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Olli Saarikivi:
-&lt;em&gt;Test-Guided Proofs for C Programs on LLVM&lt;/em&gt;.
+&lt;em&gt;Test-guided proofs for C programs on LLVM&lt;/em&gt;.
 Master&amp;rsquo;s thesis (2013).
 &lt;a class=&#34;pub-link&#34; href=&#34;http://olli.saarikivi.fi/files/msc-thesis-osaariki.pdf&#34;&gt;PDF&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
-&lt;p&gt;Kari Kähkönen, Olli Saarikivi and Keijo Heljanko:
-&lt;em&gt;LCT: A Parallel Distributed Testing Tool for Multithreaded Java Programs&lt;/em&gt;.
+&lt;p&gt;Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
+&lt;em&gt;LCT: A parallel distributed testing tool for multithreaded Java programs&lt;/em&gt;.
 PDMC 2012.
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1016/j.entcs.2013.09.002&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
-&lt;p&gt;Kari Kähkönen, Olli Saarikivi and Keijo Heljanko:
-&lt;em&gt;Using Unfoldings in Automated Testing of Multithreaded Programs&lt;/em&gt;.
+&lt;p&gt;Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
+&lt;em&gt;Using unfoldings in automated testing of multithreaded programs&lt;/em&gt;.
 ASE 2012.
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/s10515-014-0150-6&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
-&lt;p&gt;Olli Saarikivi, Kari Kähkönen and Keijo Heljanko:
-&lt;em&gt;Improving Dynamic Partial Order Reductions for Concolic Testing&lt;/em&gt;.
+&lt;p&gt;Olli Saarikivi, Kari Kähkönen, Keijo Heljanko:
+&lt;em&gt;Improving dynamic partial order reductions for concolic testing&lt;/em&gt;.
 ACSD 2012.
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1109/ACSD.2012.18&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
-&lt;p&gt;Kari Kähkönen, Tuomas Launiainen, Olli Saarikivi, Janne Kauttio, Keijo Heljanko, and Ilkka Niemelä:
-&lt;em&gt;LCT: An Open Source Concolic Testing Tool for JavaPrograms&lt;/em&gt;.
+&lt;p&gt;Kari Kähkönen, Tuomas Launiainen, Olli Saarikivi, Janne Kauttio, Keijo Heljanko, Ilkka Niemelä:
+&lt;em&gt;LCT: An open source concolic testing tool for Java programs&lt;/em&gt;.
 BYTECODE 2011.
 &lt;a class=&#34;pub-link&#34; href=&#34;http://olli.saarikivi.fi/files/KahLauSaaKauHelNie-BYTECODE2011.pdf&#34;&gt;PDF&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
