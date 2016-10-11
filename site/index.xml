@@ -213,7 +213,12 @@ undergraduate level students.&lt;/p&gt;
   &lt;h1 class=&#34;reduce-skip&#34;&gt;About&lt;/h1&gt;
 &lt;/header&gt;
 
-&lt;p&gt;I&amp;rsquo;m a doctoral student at &lt;a href=&#34;http://cse.aalto.fi/en/&#34; title=&#34;CSE&#34;&gt;Aalto University Department of Computer Science and Engineering&lt;/a&gt;.&lt;/p&gt;
+&lt;figure class=&#34;float-right&#34;&gt;
+	&lt;a href=&#34;http://olli.saarikivi.fi/files/profile.jpg&#34;&gt;
+	&lt;img class=&#34;picture&#34; src=&#34;http://olli.saarikivi.fi/files/profile-small.jpg&#34;  width=&#34;150&#34;/&gt;
+	&lt;/a&gt;
+	
+&lt;/figure&gt;
 
 &lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;
 
@@ -222,7 +227,7 @@ undergraduate level students.&lt;/p&gt;
 &lt;h3 id=&#34;office-address&#34;&gt;Office Address&lt;/h3&gt;
 
 &lt;p&gt;Aalto University School of Science&lt;br /&gt;
-Department of Computer Science and Engineering&lt;br /&gt;
+Department of Computer Science&lt;br /&gt;
 PO Box 15400, FI-00076 Aalto, Finland&lt;/p&gt;
 </description>
     </item>
