@@ -6,27 +6,27 @@ aliases = "/article/cv"
 date = "2014-11-26"
 +++
 
-# Education
-
-## Doctoral student
-**Sept. 2013 – present** Aalto University, Department Computer Science and Engineering
-
-My thesis topics include automated testing methods for sequential and concurrent software, and applications of symbolic automata and transducers to optimizing stream computations.
-
-## M.Sc. in Computer Science
-**Sept. 2011 – Aug. 2013** Aalto University, Department of Information and Computer Science
-
-## B.Sc. in Computer Science
-**Sept. 2007 – Apr. 2011** Helsinki University, Department of Computer Science
-
-## Päivölä High School of Mathematics
-**July 2004 – May 2006**
-
-During this I had the opportunity to work at Nokia Research Center,
-thanks to a partnership between Nokia and the school. See the Work
-Experience section for details.
-
 # Publications
+
+Olli Saarikivi, Margus Veanes, Todd Mytkowicz, Madan Musuvathi:
+*Fusing Effectful Comprehensions*.
+PLDI 2017.
+[Accepted.](http://conf.researchr.org/track/pldi-2017/pldi-2017-papers#phid_c6689a3135c423dc16523d351cad4b4b)
+
+Olli Saarikivi, Margus Veanes:
+*Minimization of Symbolic Transducers*.
+CAV 2017.
+[Accepted.](http://cavconference.org/2017/accepted-papers/)
+
+Olli Saarikivi, Margus Veanes:
+*Translating C# to Branching Symbolic Transducers*.
+LPAR 2017.
+[Accepted.](http://easychair.org/smart-program/LPAR-21/index.html#talk:43618)
+
+Olli Saarikivi, Hernán Ponce de León, Kari Kähkönen, Keijo Heljanko, Javier Esparza:
+*Minimizing Test Suites with Unfoldings of Multithreaded Programs*.
+ACM Transactions on Embedded Computing Systems (TECS) 16(2), 2017, special issue on ACSD 2015.
+{{% doi "10.1145/3012281" %}}
 
 Olli Saarikivi, Keijo Heljanko:
 *LCTD: Tests-guided proofs for C programs on LLVM (competition contribution)*.
@@ -35,12 +35,12 @@ TACAS 2016.
 
 Olli Saarikivi, Keijo Heljanko:
 *LCTD: Test-guided proofs for C programs on LLVM*.
-Journal of Logical and Algebraic Methods in Programming (2015).
+Journal of Logical and Algebraic Methods in Programming 85(6), 2016.
 {{% doi "10.1016/j.jlamp.2015.10.010" %}}
 
 Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
 *Unfolding based automated testing of multithreaded programs*.
-Automated Software Engineering 22(4) (2015).
+Automated Software Engineering 22(4), 2015.
 {{% doi "10.1007/s10515-014-0150-6" %}}
 
 Hernán Ponce de León, Olli Saarikivi, Kari Kähkönen, Keijo Heljanko, Javier Esparza:
@@ -55,7 +55,7 @@ NFM 2015.
 
 Olli Saarikivi:
 *Test-guided proofs for C programs on LLVM*.
-Master's thesis (2013).
+Master's thesis, 2013.
 {{% pdf "Olli_Saarikivi_masters_thesis.pdf" %}}
 
 Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
@@ -80,14 +80,38 @@ BYTECODE 2011.
 
 [Download as BibTex](Olli_Saarikivi.bib)
 
+# Education
+
+## Doctoral student
+**Sept. 2013 – present** Aalto University, Department Computer Science and Engineering
+
+My thesis topics include automated testing methods for sequential and concurrent
+software, and applications of symbolic automata and transducers to optimizing
+stream computations.
+
+## M.Sc. in Computer Science
+**Sept. 2011 – Aug. 2013** Aalto University, Department of Information and Computer Science
+
+## B.Sc. in Computer Science
+**Sept. 2007 – Apr. 2011** Helsinki University, Department of Computer Science
+
+## Päivölä High School of Mathematics
+**July 2004 – May 2006**
+
+During this I had the opportunity to work at Nokia Research Center,
+thanks to a partnership between Nokia and the school. See the Work
+Experience section for details.
+
 # Work Experience
 
 ## Aalto University
-**1 Sept. 2013 – present** Doctoral student at the Department of Computer Science and Engineering
+**1 Sept. 2013 – present** Doctoral student at the Department of Computer
+Science and Engineering
 
 See the Education section for details.
 
-**1 June 2010 – 31 Aug. 2013** Research assistant at the Department of Information and Computer Science
+**1 June 2010 – 31 Aug. 2013** Research assistant at the Department of
+Information and Computer Science
 
 I worked on projects researching automated software testing
 and verification. I extended the dynamic symbolic execution tool LCT to
@@ -105,15 +129,24 @@ the summers were full time.
 
 **6 June 2016 - 9 Sept. 2016** Research intern
 
-I integrated a code generator for string matchers into the Scope query language for Microsoft's internal Cosmos big data platform. The code generator used symbolic automata enable minimization and composition of string matchers. On a popular set of regex benchmarks the code generator was 1.1X faster than Google's RE2 regex engine.
+I integrated a code generator for string matchers into the Scope query language
+for Microsoft's internal Cosmos big data platform. The code generator used
+symbolic automata enable minimization and composition of string matchers. On a
+popular set of regex benchmarks the code generator was 1.1X faster than Google's
+RE2 regex engine.
 
 **2 Feb. 2015 - 8 May 2015** Research intern
 
-Interning under Margus Veanes I developed a tool that allows users to specify symbolic transducers as imperative C# code, fuses compositions of symbolic transducers and finally generates efficient C# that shows significant speedups over modular hand-written and LINQ implementations. We developed a fusion procedure that uses an SMT solver and reachability analysis to make fusing larger compositions feasible.
+Interning under Margus Veanes I developed a tool that allows users to specify
+symbolic transducers as imperative C# code, fuses compositions of symbolic
+transducers and finally generates efficient C# that shows significant speedups
+over modular hand-written and LINQ implementations. We developed a fusion
+procedure that uses an SMT solver and reachability analysis to make fusing
+larger compositions feasible.
 
 ## Helsinki University of Technology
-**1 June 2009 – 31 Aug. 2009** Research assistant at the Laboratory for Theoretical
-Computer Science
+**1 June 2009 – 31 Aug. 2009** Research assistant at the Laboratory for
+Theoretical Computer Science
 
 I worked on a project researching formal methods and automated testing.
 I developed a set of utilities to generate test drivers for the
@@ -148,6 +181,11 @@ This traineeship was part of my education at the Päivölä High School of
 Mathematics.
 
 # Conferences and Schools
+
+Attended the 2016 European Joint Conferences on Theory and Practice of Software
+(ETAPS 2016) and presented our [SV-COMP](https://sv-comp.sosy-lab.org/)
+contribution: *LCTD: Tests-guided proofs for C programs on LLVM (competition
+contribution)*.
 
 Attended the 11th LASER Summer School on Software Engineering (LASER 2014).
 
