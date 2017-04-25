@@ -17,31 +17,27 @@
       <guid>http://olli.saarikivi.fi/cv</guid>
       <description>
 
-&lt;h1 id=&#34;education&#34;&gt;Education&lt;/h1&gt;
-
-&lt;h2 id=&#34;doctoral-student&#34;&gt;Doctoral student&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Sept. 2013 – present&lt;/strong&gt; Aalto University, Department Computer Science and Engineering&lt;/p&gt;
-
-&lt;p&gt;My thesis topics include automated testing methods for sequential and concurrent software, and applications of symbolic automata and transducers to optimizing stream computations.&lt;/p&gt;
-
-&lt;h2 id=&#34;m-sc-in-computer-science&#34;&gt;M.Sc. in Computer Science&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Sept. 2011 – Aug. 2013&lt;/strong&gt; Aalto University, Department of Information and Computer Science&lt;/p&gt;
-
-&lt;h2 id=&#34;b-sc-in-computer-science&#34;&gt;B.Sc. in Computer Science&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Sept. 2007 – Apr. 2011&lt;/strong&gt; Helsinki University, Department of Computer Science&lt;/p&gt;
-
-&lt;h2 id=&#34;päivölä-high-school-of-mathematics&#34;&gt;Päivölä High School of Mathematics&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;July 2004 – May 2006&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;During this I had the opportunity to work at Nokia Research Center,
-thanks to a partnership between Nokia and the school. See the Work
-Experience section for details.&lt;/p&gt;
-
 &lt;h1 id=&#34;publications&#34;&gt;Publications&lt;/h1&gt;
+
+&lt;p&gt;Olli Saarikivi, Margus Veanes, Todd Mytkowicz, Madan Musuvathi:
+&lt;em&gt;Fusing Effectful Comprehensions&lt;/em&gt;.
+PLDI 2017.
+&lt;a href=&#34;http://conf.researchr.org/track/pldi-2017/pldi-2017-papers#phid_c6689a3135c423dc16523d351cad4b4b&#34;&gt;Accepted.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Olli Saarikivi, Margus Veanes:
+&lt;em&gt;Minimization of Symbolic Transducers&lt;/em&gt;.
+CAV 2017.
+&lt;a href=&#34;http://cavconference.org/2017/accepted-papers/&#34;&gt;Accepted.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Olli Saarikivi, Margus Veanes:
+&lt;em&gt;Translating C# to Branching Symbolic Transducers&lt;/em&gt;.
+LPAR 2017.
+&lt;a href=&#34;http://easychair.org/smart-program/LPAR-21/index.html#talk:43618&#34;&gt;Accepted.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Olli Saarikivi, Hernán Ponce de León, Kari Kähkönen, Keijo Heljanko, Javier Esparza:
+&lt;em&gt;Minimizing Test Suites with Unfoldings of Multithreaded Programs&lt;/em&gt;.
+ACM Transactions on Embedded Computing Systems (TECS) 16(2), 2017, special issue on ACSD 2015.
+&lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1145/3012281&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Olli Saarikivi, Keijo Heljanko:
 &lt;em&gt;LCTD: Tests-guided proofs for C programs on LLVM (competition contribution)&lt;/em&gt;.
@@ -50,12 +46,12 @@ TACAS 2016.
 
 &lt;p&gt;Olli Saarikivi, Keijo Heljanko:
 &lt;em&gt;LCTD: Test-guided proofs for C programs on LLVM&lt;/em&gt;.
-Journal of Logical and Algebraic Methods in Programming (2015).
+Journal of Logical and Algebraic Methods in Programming 85(6), 2016.
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1016/j.jlamp.2015.10.010&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
 &lt;em&gt;Unfolding based automated testing of multithreaded programs&lt;/em&gt;.
-Automated Software Engineering 22(4) (2015).
+Automated Software Engineering 22(4), 2015.
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/s10515-014-0150-6&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Hernán Ponce de León, Olli Saarikivi, Kari Kähkönen, Keijo Heljanko, Javier Esparza:
@@ -70,7 +66,7 @@ NFM 2015.
 
 &lt;p&gt;Olli Saarikivi:
 &lt;em&gt;Test-guided proofs for C programs on LLVM&lt;/em&gt;.
-Master&amp;rsquo;s thesis (2013).
+Master&amp;rsquo;s thesis, 2013.
 &lt;a class=&#34;pub-link&#34; href=&#34;http://olli.saarikivi.fi/Olli_Saarikivi_masters_thesis.pdf&#34;&gt;PDF&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
@@ -95,15 +91,43 @@ BYTECODE 2011.
 
 &lt;p&gt;&lt;a href=&#34;Olli_Saarikivi.bib&#34;&gt;Download as BibTex&lt;/a&gt;&lt;/p&gt;
 
+&lt;h1 id=&#34;education&#34;&gt;Education&lt;/h1&gt;
+
+&lt;h2 id=&#34;doctoral-student&#34;&gt;Doctoral student&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Sept. 2013 – present&lt;/strong&gt; Aalto University, Department Computer Science and Engineering&lt;/p&gt;
+
+&lt;p&gt;My thesis topics include automated testing methods for sequential and concurrent
+software, and applications of symbolic automata and transducers to optimizing
+stream computations.&lt;/p&gt;
+
+&lt;h2 id=&#34;m-sc-in-computer-science&#34;&gt;M.Sc. in Computer Science&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Sept. 2011 – Aug. 2013&lt;/strong&gt; Aalto University, Department of Information and Computer Science&lt;/p&gt;
+
+&lt;h2 id=&#34;b-sc-in-computer-science&#34;&gt;B.Sc. in Computer Science&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Sept. 2007 – Apr. 2011&lt;/strong&gt; Helsinki University, Department of Computer Science&lt;/p&gt;
+
+&lt;h2 id=&#34;päivölä-high-school-of-mathematics&#34;&gt;Päivölä High School of Mathematics&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;July 2004 – May 2006&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;During this I had the opportunity to work at Nokia Research Center,
+thanks to a partnership between Nokia and the school. See the Work
+Experience section for details.&lt;/p&gt;
+
 &lt;h1 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h1&gt;
 
 &lt;h2 id=&#34;aalto-university&#34;&gt;Aalto University&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;1 Sept. 2013 – present&lt;/strong&gt; Doctoral student at the Department of Computer Science and Engineering&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1 Sept. 2013 – present&lt;/strong&gt; Doctoral student at the Department of Computer
+Science and Engineering&lt;/p&gt;
 
 &lt;p&gt;See the Education section for details.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;1 June 2010 – 31 Aug. 2013&lt;/strong&gt; Research assistant at the Department of Information and Computer Science&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1 June 2010 – 31 Aug. 2013&lt;/strong&gt; Research assistant at the Department of
+Information and Computer Science&lt;/p&gt;
 
 &lt;p&gt;I worked on projects researching automated software testing
 and verification. I extended the dynamic symbolic execution tool LCT to
@@ -121,16 +145,25 @@ the summers were full time.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;6 June 2016 - 9 Sept. 2016&lt;/strong&gt; Research intern&lt;/p&gt;
 
-&lt;p&gt;I integrated a code generator for string matchers into the Scope query language for Microsoft&amp;rsquo;s internal Cosmos big data platform. The code generator used symbolic automata enable minimization and composition of string matchers. On a popular set of regex benchmarks the code generator was 1.1X faster than Google&amp;rsquo;s RE2 regex engine.&lt;/p&gt;
+&lt;p&gt;I integrated a code generator for string matchers into the Scope query language
+for Microsoft&amp;rsquo;s internal Cosmos big data platform. The code generator used
+symbolic automata enable minimization and composition of string matchers. On a
+popular set of regex benchmarks the code generator was 1.1X faster than Google&amp;rsquo;s
+RE2 regex engine.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;2 Feb. 2015 - 8 May 2015&lt;/strong&gt; Research intern&lt;/p&gt;
 
-&lt;p&gt;Interning under Margus Veanes I developed a tool that allows users to specify symbolic transducers as imperative C# code, fuses compositions of symbolic transducers and finally generates efficient C# that shows significant speedups over modular hand-written and LINQ implementations. We developed a fusion procedure that uses an SMT solver and reachability analysis to make fusing larger compositions feasible.&lt;/p&gt;
+&lt;p&gt;Interning under Margus Veanes I developed a tool that allows users to specify
+symbolic transducers as imperative C# code, fuses compositions of symbolic
+transducers and finally generates efficient C# that shows significant speedups
+over modular hand-written and LINQ implementations. We developed a fusion
+procedure that uses an SMT solver and reachability analysis to make fusing
+larger compositions feasible.&lt;/p&gt;
 
 &lt;h2 id=&#34;helsinki-university-of-technology&#34;&gt;Helsinki University of Technology&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;1 June 2009 – 31 Aug. 2009&lt;/strong&gt; Research assistant at the Laboratory for Theoretical
-Computer Science&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1 June 2009 – 31 Aug. 2009&lt;/strong&gt; Research assistant at the Laboratory for
+Theoretical Computer Science&lt;/p&gt;
 
 &lt;p&gt;I worked on a project researching formal methods and automated testing.
 I developed a set of utilities to generate test drivers for the
@@ -165,6 +198,11 @@ mobile multiplayer gaming framework.&lt;/p&gt;
 Mathematics.&lt;/p&gt;
 
 &lt;h1 id=&#34;conferences-and-schools&#34;&gt;Conferences and Schools&lt;/h1&gt;
+
+&lt;p&gt;Attended the 2016 European Joint Conferences on Theory and Practice of Software
+(ETAPS 2016) and presented our &lt;a href=&#34;https://sv-comp.sosy-lab.org/&#34;&gt;SV-COMP&lt;/a&gt;
+contribution: &lt;em&gt;LCTD: Tests-guided proofs for C programs on LLVM (competition
+contribution)&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Attended the 11th LASER Summer School on Software Engineering (LASER 2014).&lt;/p&gt;
 
