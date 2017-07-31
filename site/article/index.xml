@@ -19,77 +19,92 @@
 
 &lt;h1 id=&#34;publications&#34;&gt;Publications&lt;/h1&gt;
 
-&lt;p&gt;Olli Saarikivi, Margus Veanes, Todd Mytkowicz, Madan Musuvathi:
-&lt;em&gt;Fusing Effectful Comprehensions&lt;/em&gt;.
-PLDI 2017.
-&lt;a href=&#34;http://conf.researchr.org/track/pldi-2017/pldi-2017-papers#phid_c6689a3135c423dc16523d351cad4b4b&#34;&gt;Accepted.&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;Olli Saarikivi, Margus Veanes:
 &lt;em&gt;Minimization of Symbolic Transducers&lt;/em&gt;.
 CAV 2017.
-&lt;a href=&#34;http://cavconference.org/2017/accepted-papers/&#34;&gt;Accepted.&lt;/a&gt;&lt;/p&gt;
+&amp;ensp;
+&lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/978-3-319-63390-9_10&#34;&gt;DOI&lt;/a&gt;&amp;ensp;
+&lt;a class=&#34;pub-link&#34; href=&#34;http://olli.saarikivi.fi/SaaVea_CAV2017.pptx&#34;&gt;Slides&lt;/a&gt;&amp;ensp;&lt;/p&gt;
+
+&lt;p&gt;Olli Saarikivi, Margus Veanes, Todd Mytkowicz, Madan Musuvathi:
+&lt;em&gt;Fusing Effectful Comprehensions&lt;/em&gt;.
+PLDI 2017.
+&amp;ensp;
+&lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1145/3062341.3062362&#34;&gt;DOI&lt;/a&gt;&amp;ensp;
+&lt;a class=&#34;pub-link&#34; href=&#34;http://olli.saarikivi.fi/SaaVeaMytMus_PLDI2017.pptx&#34;&gt;Slides&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Olli Saarikivi, Margus Veanes:
 &lt;em&gt;Translating C# to Branching Symbolic Transducers&lt;/em&gt;.
 LPAR 2017.
-&lt;a href=&#34;http://easychair.org/smart-program/LPAR-21/index.html#talk:43618&#34;&gt;Accepted.&lt;/a&gt;&lt;/p&gt;
+&amp;ensp;
+&lt;a class=&#34;pub-link&#34; href=&#34;http://olli.saarikivi.fi/SaaVea_LPAR2017.pdf&#34;&gt;PDF&lt;/a&gt;&amp;ensp;
+&lt;a class=&#34;pub-link&#34; href=&#34;http://olli.saarikivi.fi/SaaVea_LPAR2017.pptx&#34;&gt;Slides&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Olli Saarikivi, Hernán Ponce de León, Kari Kähkönen, Keijo Heljanko, Javier Esparza:
 &lt;em&gt;Minimizing Test Suites with Unfoldings of Multithreaded Programs&lt;/em&gt;.
 ACM Transactions on Embedded Computing Systems (TECS) 16(2), 2017, special issue on ACSD 2015.
+&amp;ensp;
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1145/3012281&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Olli Saarikivi, Keijo Heljanko:
 &lt;em&gt;LCTD: Tests-guided proofs for C programs on LLVM (competition contribution)&lt;/em&gt;.
 TACAS 2016.
+&amp;ensp;
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/978-3-662-49674-9_62&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Olli Saarikivi, Keijo Heljanko:
 &lt;em&gt;LCTD: Test-guided proofs for C programs on LLVM&lt;/em&gt;.
 Journal of Logical and Algebraic Methods in Programming 85(6), 2016.
+&amp;ensp;
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1016/j.jlamp.2015.10.010&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
 &lt;em&gt;Unfolding based automated testing of multithreaded programs&lt;/em&gt;.
 Automated Software Engineering 22(4), 2015.
+&amp;ensp;
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/s10515-014-0150-6&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Hernán Ponce de León, Olli Saarikivi, Kari Kähkönen, Keijo Heljanko, Javier Esparza:
 &lt;em&gt;Unfolding based minimal test suites for testing multithreaded programs&lt;/em&gt;.
 ACSD 2015.
+&amp;ensp;
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1109/ACSD.2015.12&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Olli Saarikivi, Keijo Heljanko:
 &lt;em&gt;Reporting races in dynamic partial order reduction&lt;/em&gt;.
 NFM 2015.
+&amp;ensp;
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1007/978-3-319-17524-9_35&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Olli Saarikivi:
 &lt;em&gt;Test-guided proofs for C programs on LLVM&lt;/em&gt;.
 Master&amp;rsquo;s thesis, 2013.
+&amp;ensp;
 &lt;a class=&#34;pub-link&#34; href=&#34;http://olli.saarikivi.fi/Olli_Saarikivi_masters_thesis.pdf&#34;&gt;PDF&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
 &lt;em&gt;LCT: A parallel distributed testing tool for multithreaded Java programs&lt;/em&gt;.
 PDMC 2012.
+&amp;ensp;
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1016/j.entcs.2013.09.002&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
 &lt;em&gt;Using unfoldings in automated testing of multithreaded programs&lt;/em&gt;.
 ASE 2012.
+&amp;ensp;
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1145/2351676.2351698&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Olli Saarikivi, Kari Kähkönen, Keijo Heljanko:
 &lt;em&gt;Improving dynamic partial order reductions for concolic testing&lt;/em&gt;.
 ACSD 2012.
+&amp;ensp;
 &lt;a class=&#34;pub-link&#34; href=&#34;http://dx.doi.org/10.1109/ACSD.2012.18&#34;&gt;DOI&lt;/a&gt;&amp;ensp;&lt;/p&gt;
 
 &lt;p&gt;Kari Kähkönen, Tuomas Launiainen, Olli Saarikivi, Janne Kauttio, Keijo Heljanko, Ilkka Niemelä:
 &lt;em&gt;LCT: An open source concolic testing tool for Java programs&lt;/em&gt;.
 BYTECODE 2011.
+&amp;ensp;
 &lt;a class=&#34;pub-link&#34; href=&#34;http://olli.saarikivi.fi/KahLauSaaKauHelNie-BYTECODE2011.pdf&#34;&gt;PDF&lt;/a&gt;&amp;ensp;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;Olli_Saarikivi.bib&#34;&gt;Download as BibTex&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;education&#34;&gt;Education&lt;/h1&gt;
 
