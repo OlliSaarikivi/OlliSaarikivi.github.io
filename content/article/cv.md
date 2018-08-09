@@ -8,77 +8,92 @@ date = "2014-11-26"
 
 # Publications
 
-Olli Saarikivi, Margus Veanes, Todd Mytkowicz, Madan Musuvathi:
-*Fusing Effectful Comprehensions*.
-PLDI 2017.
-[Accepted.](http://conf.researchr.org/track/pldi-2017/pldi-2017-papers#phid_c6689a3135c423dc16523d351cad4b4b)
-
 Olli Saarikivi, Margus Veanes:
 *Minimization of Symbolic Transducers*.
 CAV 2017.
-[Accepted.](http://cavconference.org/2017/accepted-papers/)
+&ensp;
+{{% doi "10.1007/978-3-319-63390-9_10" %}}
+{{% slides "SaaVea_CAV2017.pptx" %}}
+
+Olli Saarikivi, Margus Veanes, Todd Mytkowicz, Madan Musuvathi:
+*Fusing Effectful Comprehensions*.
+PLDI 2017.
+&ensp;
+{{% doi "10.1145/3062341.3062362" %}}
+{{% slides "SaaVeaMytMus_PLDI2017.pptx" %}}
 
 Olli Saarikivi, Margus Veanes:
 *Translating C# to Branching Symbolic Transducers*.
 LPAR 2017.
-[Accepted.](http://easychair.org/smart-program/LPAR-21/index.html#talk:43618)
+&ensp;
+{{% pdf "SaaVea_LPAR2017.pdf" %}}
+{{% slides "SaaVea_LPAR2017.pptx" %}}
 
 Olli Saarikivi, Hernán Ponce de León, Kari Kähkönen, Keijo Heljanko, Javier Esparza:
 *Minimizing Test Suites with Unfoldings of Multithreaded Programs*.
 ACM Transactions on Embedded Computing Systems (TECS) 16(2), 2017, special issue on ACSD 2015.
+&ensp;
 {{% doi "10.1145/3012281" %}}
 
 Olli Saarikivi, Keijo Heljanko:
 *LCTD: Tests-guided proofs for C programs on LLVM (competition contribution)*.
 TACAS 2016.
+&ensp;
 {{% doi "10.1007/978-3-662-49674-9_62" %}}
 
 Olli Saarikivi, Keijo Heljanko:
 *LCTD: Test-guided proofs for C programs on LLVM*.
 Journal of Logical and Algebraic Methods in Programming 85(6), 2016.
+&ensp;
 {{% doi "10.1016/j.jlamp.2015.10.010" %}}
 
 Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
 *Unfolding based automated testing of multithreaded programs*.
 Automated Software Engineering 22(4), 2015.
+&ensp;
 {{% doi "10.1007/s10515-014-0150-6" %}}
 
 Hernán Ponce de León, Olli Saarikivi, Kari Kähkönen, Keijo Heljanko, Javier Esparza:
 *Unfolding based minimal test suites for testing multithreaded programs*.
 ACSD 2015.
+&ensp;
 {{% doi "10.1109/ACSD.2015.12" %}}
 
 Olli Saarikivi, Keijo Heljanko:
 *Reporting races in dynamic partial order reduction*.
 NFM 2015.
+&ensp;
 {{% doi "10.1007/978-3-319-17524-9_35" %}}
 
 Olli Saarikivi:
 *Test-guided proofs for C programs on LLVM*.
 Master's thesis, 2013.
-{{% pdf "Olli_Saarikivi_masters_thesis.pdf" %}}
+&ensp;
+{{% pdf "masters_thesis.pdf" %}}
 
 Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
 *LCT: A parallel distributed testing tool for multithreaded Java programs*.
 PDMC 2012.
+&ensp;
 {{% doi "10.1016/j.entcs.2013.09.002" %}}
 
 Kari Kähkönen, Olli Saarikivi, Keijo Heljanko:
 *Using unfoldings in automated testing of multithreaded programs*.
 ASE 2012.
+&ensp;
 {{% doi "10.1145/2351676.2351698" %}}
 
 Olli Saarikivi, Kari Kähkönen, Keijo Heljanko:
 *Improving dynamic partial order reductions for concolic testing*.
 ACSD 2012.
+&ensp;
 {{% doi "10.1109/ACSD.2012.18" %}}
 
 Kari Kähkönen, Tuomas Launiainen, Olli Saarikivi, Janne Kauttio, Keijo Heljanko, Ilkka Niemelä:
 *LCT: An open source concolic testing tool for Java programs*.
 BYTECODE 2011.
+&ensp;
 {{% pdf "KahLauSaaKauHelNie-BYTECODE2011.pdf" %}}
-
-[Download as BibTex](Olli_Saarikivi.bib)
 
 # Education
 
